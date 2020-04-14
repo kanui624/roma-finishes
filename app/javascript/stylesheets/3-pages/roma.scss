@@ -1,0 +1,80 @@
+// #html_id {
+//   @include html_id;
+// }
+
+// #body_id {
+// }
+
+// #header_id {
+// }
+
+// #navbar_id {
+//   @include navbar_id;
+// }
+
+// #ul_id_navbar {
+//   @include ul_id_navbar;
+// }
+
+// #li_id_navbar {
+//   @include li_id_navbar;
+// }
+
+// a {
+// }
+
+// .comp_mob {
+//   display: none;
+// }
+
+// .comp_mob div {
+//   width: 25px;
+//   height: 3px;
+//   background-color: white;
+//   margin: 3px;
+// }
+
+// #logo_id {
+//   @include logo_id;
+//   @include logo_style;
+// }
+
+// Tut CSS placed for test purposes
+
+.bg_primary-color {
+  background-color: $roma_green;
+}
+.primary-color {
+  background-color: $roma_green;
+}
+.bg_secondary-color {
+  background-color: $roma_grey;
+}
+.secondary-color {
+  color: $roma_white;
+}
+.custom-button.btn {
+  background-color: $roma_orang;
+  color: #fff;
+  border: none;
+}
+.custom-button.btn:hover {
+  background-color: $roma_yello;
+  color: $roma_grey !important;
+  border: none;
+}
+.hero {
+  width: 100vw;
+  height: 50vh;
+}
+.hero img {
+  object-fit: cover;
+  object-position: top;
+  height: 100%;
+  width: 100%;
+}
+.overlay {
+  height: 100%;
+  width: 100%;
+  opacity: 0.4;
+}

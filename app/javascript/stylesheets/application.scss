@@ -1,0 +1,24 @@
+// External Node Modules
+// $fa-font-path: '@fortawesome/fontawesome-free/webfonts';
+// @import '@fortawesome/fontawesome-free/scss/fontawesome';
+// @import '@fortawesome/fontawesome-free/scss/regular';
+// @import '@fortawesome/fontawesome-free/scss/solid';
+// @import '@fortawesome/fontawesome-free/scss/brands';
+
+// @import '@fortawesome/fontawesome-free/scss/fontawesome';
+// @import "bootstrap/scss/bootstrap";
+
+// 1 - Var_Func_Mix
+@import "stylesheets/1-global_var_func_mix/global_color_variables";
+@import "stylesheets/1-global_var_func_mix/global_tag_mixins";
+
+// 2 - Page_Spec_Attribs
+// @import "stylesheets/2-page_spec_attribs/roma_attribs";
+
+// 3 - Pages
+@import "stylesheets/3-pages/roma";
+
+// External
+// @import "tailwindcss/base";
+// @import "tailwindcss/components";
+// @import "tailwindcss/utilities";
