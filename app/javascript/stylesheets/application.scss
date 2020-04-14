@@ -6,7 +6,6 @@
 // @import '@fortawesome/fontawesome-free/scss/brands';
 
 // @import '@fortawesome/fontawesome-free/scss/fontawesome';
-// @import "bootstrap/scss/bootstrap";
 
 // 1 - Var_Func_Mix
 @import "stylesheets/1-global_var_func_mix/global_color_variables";
@@ -19,6 +18,7 @@
 @import "stylesheets/3-pages/roma";
 
 // External
+@import "bootstrap/scss/bootstrap";
 // @import "tailwindcss/base";
 // @import "tailwindcss/components";
 // @import "tailwindcss/utilities";
