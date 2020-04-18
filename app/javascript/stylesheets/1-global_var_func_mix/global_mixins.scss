@@ -11,6 +11,10 @@
 @mixin nav_mix {
 }
 
+@mixin h1_mix {
+  @include font_mix;
+}
+
 @mixin ul_mix {
 }
 
@@ -28,5 +32,5 @@
 @mixin font_mix {
   font-family: "Muli", sans-serif !important;
   font-weight: 300 !important;
-  font-size: 21px !important;
+  font-size: 20px !important;
 }

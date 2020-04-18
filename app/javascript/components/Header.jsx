@@ -3,15 +3,17 @@ import Nav from "../components/Nav";
 
 const Head = () => {
   return (
-    <header>
+    <div className="container-fluid section-one">
       <Nav />
-      {/* <div className="hero-text-box">
-        <h1>Home | Business | Industrial</h1>
-        <a className="btn" href="#">
-          Get a Quote
-        </a>
-      </div> */}
-    </header>
+      <header>
+        <div className="container roma-hero">
+          <h1>Home | Business | Industrial</h1>
+          <a className="btn" href="#">
+            Get a Quote
+          </a>
+        </div>
+      </header>
+    </div>
   );
 };
 

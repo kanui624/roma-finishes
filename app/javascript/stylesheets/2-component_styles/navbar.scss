@@ -1,14 +1,11 @@
+// Navbar SCSS
 li {
   @include li_mix;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 40px;
 }
 
 a {
   @include a_mix;
-}
-
-#a_nav {
 }
 
 #wht_nav_logo {
@@ -17,7 +14,4 @@ a {
 
 .nav-font {
   @include font_mix;
-}
-
-.navbar-nav > li {
 }
