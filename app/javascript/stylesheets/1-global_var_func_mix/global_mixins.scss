@@ -1,4 +1,4 @@
-// HTML Tag Mixin Bank
+// HTML Tag Mixins
 @mixin html_mix {
 }
 
@@ -21,4 +21,12 @@
 @mixin a_mix {
   color: white !important;
   text-transform: uppercase !important;
+}
+
+// Font Mixins
+
+@mixin font_mix {
+  font-family: "Muli", sans-serif !important;
+  font-weight: 300 !important;
+  font-size: 21px !important;
 }

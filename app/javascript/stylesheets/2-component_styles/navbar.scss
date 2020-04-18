@@ -1,13 +1,23 @@
 li {
   @include li_mix;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 a {
   @include a_mix;
 }
+
 #a_nav {
 }
 
 #wht_nav_logo {
-  height: 120px;
+  height: 130px;
+}
+
+.nav-font {
+  @include font_mix;
+}
+
+.navbar-nav > li {
 }

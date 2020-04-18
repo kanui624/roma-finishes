@@ -3,7 +3,7 @@ import w_roma from "../images/w_roma.png";
 
 const Nav = () => {
   return (
-    <nav className="navbar navbar-expand-lg fixed-top py-3">
+    <nav className="navbar navbar-expand-lg fixed-top py-3 nav-font">
       <div className="container">
         <div className="roma_logo">
           <a href="#" className="navbar-brand text-uppercase">
