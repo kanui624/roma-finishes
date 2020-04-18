@@ -1,7 +1,7 @@
 import React from "react";
-import { render } from "react-dom";
-import App from "../components/App";
+import ReactDOM from "react-dom";
+import Nav from "../components/Nav";
 
 document.addEventListener("DOMContentLoaded", () => {
-  render(<App />, document.body.appendChild(document.createElement("div")));
+  ReactDOM.render(<Nav />, document.getElementById("root"));
 });

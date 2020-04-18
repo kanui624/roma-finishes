@@ -1,41 +1,24 @@
 // HTML Tag Mixin Bank
-@mixin html_id {
-  background-color: black;
-  font-family: "Muli", sans-serif;
-  font-weight: 300;
-  font-size: 25px;
-  color: white;
-  text-rendering: optimizeLegibility;
+@mixin html_mix {
 }
 
-@mixin body_id {
+@mixin body_mix {
 }
 
-@mixin header_id {
+@mixin header_mix {
 }
 
-@mixin navbar_id {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  min-height: 8vh;
-  background-color: rgba(255, 255, 255, 0.616);
+@mixin nav_mix {
 }
 
-@mixin ul_id_navbar {
-  display: flex;
-  justify-content: space-between;
+@mixin ul_mix {
 }
 
-@mixin li_id_navbar {
-  font-size: 80%;
-  margin: 0 50px;
-  text-transform: uppercase;
-  letter-spacing: 3px;
+@mixin li_mix {
+  list-style: none;
 }
 
-@mixin a {
-}
-
-@mixin logo_id {
+@mixin a_mix {
+  color: white !important;
+  text-transform: uppercase !important;
 }

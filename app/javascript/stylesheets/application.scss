@@ -2,10 +2,10 @@
 @import "stylesheets/1-global_var_func_mix/global_color_variables";
 @import "stylesheets/1-global_var_func_mix/global_tag_mixins";
 
-// 2 - Page_Spec_Attribs
-// @import "stylesheets/2-page_spec_attribs/roma_attribs";
-
-// 3 - Pages
+// // 2 - component_styles
+@import "stylesheets/2-component_styles/navbar";
+@import "stylesheets/2-component_styles/header";
+// // 3 - Pages
 @import "stylesheets/3-pages/roma";
 
 // External
