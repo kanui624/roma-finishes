@@ -4,31 +4,6 @@ const Serv = () => {
   return (
     <div clasName="row text-center services">
       <div className="col-12">
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
         <h2 className="display-4">Section Two</h2>
       </div>
       <hr />
