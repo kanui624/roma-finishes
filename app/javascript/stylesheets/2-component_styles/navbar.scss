@@ -16,15 +16,16 @@ a {
   @include font_mix;
 }
 
+.navbar-brand {
+  padding: 0 !important;
+}
+
+nav {
+  padding: 0 !important;
+}
+
 // Nav Scroll Change
 
-/*
-*
-* ==========================================
-* CUSTOM UTIL CLASSES
-* ==========================================
-*
-*/
 .navbar {
   transition: all 0.4s;
 }
