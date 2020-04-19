@@ -2,12 +2,16 @@
 @import "stylesheets/1-global_var_func_mix/global_variables";
 @import "stylesheets/1-global_var_func_mix/global_mixins";
 
-// // 2 - component_styles
+// 2 - component_styles
 @import "stylesheets/2-component_styles/navbar";
 @import "stylesheets/2-component_styles/header";
-// // 3 - Pages
+
+// 3 - Pages
 @import "stylesheets/3-pages/section_one";
 @import "stylesheets/3-pages/roma";
+
+// 4 - Media Queries
+@import "stylesheets/4-media_queries/media_queries.scss";
 
 // External
 @import "bootstrap/scss/bootstrap";
