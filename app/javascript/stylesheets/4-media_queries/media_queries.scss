@@ -35,26 +35,40 @@
     ##Screen = B/w 320px to 479px
   */
 
-@media (min-width: 320px) and (max-width: 480px) {
+@media (max-width: 480px) {
+  .section-one {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
+      url("../images/tank_phone.png");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+  }
+
   #wht_nav_logo {
     height: 80px;
+    margin-left: 15px;
   }
 
   a {
     @include a_mix;
-    font-size: 14px;
+    font-size: 16px;
+    margin-right: 15px;
   }
 
   h1 {
-    font-size: 14px !important;
+    font-size: 16px !important;
   }
 
   .btn:link,
   .btn:visited {
     display: inline-block;
-    padding: 5px 15px;
+    padding: 7px 20px;
     margin: 2.5px;
-    font-size: 40%;
+    font-size: 60%;
     text-transform: uppercase;
     font-weight: 300;
     text-decoration: none;
