@@ -1,10 +1,12 @@
 import React from "react";
-import Serv from "../Services";
+import ServTitle from "../ServTitle";
+import Services from "../Services";
 
 const SecTwo = () => {
   return (
-    <div className="container-fluid padding section-two">
-      <Serv />
+    <div className="section-two">
+      <ServTitle />
+      <Services />
     </div>
   );
 };

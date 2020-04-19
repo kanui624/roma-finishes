@@ -87,7 +87,7 @@
   }
 }
 
-@media (min-width: 320px) and (max-width: 480px) {
+@media (max-width: 480px) {
   .section-one {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
       url("../images/tank_phone.png");

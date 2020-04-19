@@ -6,7 +6,7 @@ const Nav = () => {
     <nav className="navbar navbar-expand-lg fixed-top nav-font">
       <div className="container">
         <div className="roma_logo">
-          <a href="#" className="navbar-brand">
+          <a href="#secone" className="navbar-brand">
             <img
               id="wht_nav_logo"
               src={require("../images/w_roma.png")}
@@ -25,7 +25,7 @@ const Nav = () => {
         <div className="collapse navbar-collapse" id="romaMenu">
           <ul className="navbar-nav ml-auto">
             <li className="nav-item ml-auto">
-              <a href="#" className="nav-link">
+              <a href="#sectwo" className="nav-link">
                 services
               </a>
             </li>
