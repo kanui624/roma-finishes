@@ -1,46 +1,6 @@
 // // Extra small devices (portrait phones, less than 576px)
 // @media (max-width: 575.98px) {
-//   #wht_nav_logo {
-//     height: 70px;
-//     margin-left: 15px;
-//   }
 
-//   a {
-//     @include a_mix;
-//     font-size: 85%;
-//     margin-right: 15px;
-//   }
-
-//   .section-one {
-//     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
-//       url("../images/tank_phone.png") !important;
-//     // background-size: cover;
-//     // background-position: center;
-//     // height: 100vh;
-//     // background-attachment: fixed;
-//     // -webkit-background-size: cover;
-//     // -moz-background-size: cover;
-//     // -o-background-size: cover;
-//   }
-
-//   h1 {
-//     font-size: 16px !important;
-//   }
-
-//   .btn:link,
-//   .btn:visited {
-//     display: inline-block;
-//     padding: 7px 20px;
-//     margin: 2.5px;
-//     font-size: 70%;
-//     text-transform: uppercase;
-//     font-weight: 300;
-//     text-decoration: none;
-//     border-radius: 200px;
-//     border: 1px solid white;
-//     color: white;
-//     transition: background-color 0.2s, border 0.2s, color 0.2s;
-//   }
 // }
 
 // // // Small devices (landscape phones, 576px and up)
@@ -131,6 +91,47 @@
 
 // Extra small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px) {
+  #wht_nav_logo {
+    height: 70px;
+    margin-left: 15px;
+  }
+
+  a {
+    @include a_mix;
+    font-size: 85%;
+    margin-right: 15px;
+  }
+
+  .section-one {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
+      url("../images/tank_phone.png") !important;
+    // background-size: cover;
+    // background-position: center;
+    // height: 100vh;
+    // background-attachment: fixed;
+    // -webkit-background-size: cover;
+    // -moz-background-size: cover;
+    // -o-background-size: cover;
+  }
+
+  h1 {
+    font-size: 16px !important;
+  }
+
+  .btn:link,
+  .btn:visited {
+    display: inline-block;
+    padding: 7px 20px;
+    margin: 2.5px;
+    font-size: 70%;
+    text-transform: uppercase;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px;
+    border: 1px solid white;
+    color: white;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+  }
 }
 
 // Small devices (landscape phones, 576px and up)

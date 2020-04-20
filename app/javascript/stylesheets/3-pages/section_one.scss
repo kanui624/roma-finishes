@@ -1,11 +1,12 @@
 .section-one {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
-    url("../images/tank_phone.png");
-  background-position: center center;
-  background-repeat: no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
+    url("../images/tank.png");
   background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
+  object-fit: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
