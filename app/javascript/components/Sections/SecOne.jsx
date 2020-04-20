@@ -5,8 +5,10 @@ import Head from "../Header";
 const SecOne = () => {
   return (
     <div className="container-fluid section-one">
-      <Nav />
-      <Head />
+      <div className="tank">
+        <Nav />
+        <Head />
+      </div>
     </div>
   );
 };
