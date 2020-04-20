@@ -1,96 +1,49 @@
-// // Extra small devices (portrait phones, less than 576px)
-// @media (max-width: 575.98px) {
+@media (min-width: 320px) and (max-width: 374px) and (orientation: portrait) {
+  #wht_nav_logo {
+    height: 70px;
+    margin-left: 15px;
+  }
 
-// }
+  a {
+    @include a_mix;
+    font-size: 95%;
+    margin-right: 15px;
+  }
 
-// // // Small devices (landscape phones, 576px and up)
-// @media (max-width: 767.98px) {
-//   #wht_nav_logo {
-//     height: 70px;
-//     margin-left: 15px;
-//   }
+  .section-one {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
+      url("../images/tank_sm_phone.png");
+    background-size: cover;
+    background-position: fixed;
+    background-repeat: no-repeat;
+    height: 100vh;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+  }
 
-//   a {
-//     @include a_mix;
-//     font-size: 85%;
-//     margin-right: 15px;
-//   }
+  h1 {
+    font-size: 16px !important;
+  }
 
-//   //   .section-one {
-//   //     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
-//   //       url("../images/tank.png") !important;
-//   //     background-size: cover;
-//   //     background-position: center;
-//   //     height: 100vh;
-//   //     background-attachment: fixed;
-//   //     -webkit-background-size: cover;
-//   //     -moz-background-size: cover;
-//   //     -o-background-size: cover;
-//   //   }
-
-//   h1 {
-//     font-size: 16px !important;
-//   }
-
-//   .btn:link,
-//   .btn:visited {
-//     display: inline-block;
-//     padding: 7px 20px;
-//     margin: 2.5px;
-//     font-size: 70%;
-//     text-transform: uppercase;
-//     font-weight: 300;
-//     text-decoration: none;
-//     border-radius: 200px;
-//     border: 1px solid white;
-//     color: white;
-//     transition: background-color 0.2s, border 0.2s, color 0.2s;
-//   }
-// }
-
-// // Medium devices (tablets, 768px and up)
-// @media (min-width: 1025px) {
-//   #wht_nav_logo {
-//     height: 80px;
-//     margin-left: 15px;
-//   }
-
-//   a {
-//     @include a_mix;
-//     font-size: 90%;
-//     margin-right: 15px;
-//   }
-
-//   h1 {
-//     font-size: 20px !important;
-//   }
-
-//   .btn:link,
-//   .btn:visited {
-//     display: inline-block;
-//     padding: 7px 20px;
-//     margin: 2.5px;
-//     font-size: 85%;
-//     text-transform: uppercase;
-//     font-weight: 300;
-//     text-decoration: none;
-//     border-radius: 200px;
-//     border: 1px solid white;
-//     color: white;
-//     transition: background-color 0.2s, border 0.2s, color 0.2s;
-//   }
-// }
-
-// // // Large devices (desktops, 992px and up)
-// // @media (min-width: 992px) and (max-width: 1199.98px) {
-// // }
-
-// // // Extra large devices (large desktops, 1200px and up)
-// // @media (min-width: 1200px) {
-// // }
+  .btn:link,
+  .btn:visited {
+    display: inline-block;
+    padding: 7px 20px;
+    margin: 2.5px;
+    font-size: 75%;
+    text-transform: uppercase;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px;
+    border: 1px solid white;
+    color: white;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+  }
+}
 
 // Extra small devices (portrait phones, less than 576px)
-@media (max-width: 575.98px) and (orientation: portrait) {
+@media (min-width: 375px) and (max-width: 575.98px) and (orientation: portrait) {
   #wht_nav_logo {
     height: 70px;
     margin-left: 15px;
@@ -138,8 +91,45 @@
 @media (min-width: 576px) and (max-width: 767.98px) {
 }
 
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+  .section-one {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
+      url("../images/tank_ipad.png");
+    background-size: cover;
+    background-position: fixed;
+    background-repeat: no-repeat;
+    height: 100vh;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+  }
+}
+
 // Medium devices (tablets, 768px and up)
-@media (min-width: 768px) and (max-width: 991.98px) {
+@media (min-width: 768px) and (max-width: 991.98px) and (orientation: landscape) {
+  #wht_nav_logo {
+    height: 80px;
+    margin-left: 15px;
+  }
+
+  h1 {
+    font-size: 21px !important;
+  }
+
+  .btn:link,
+  .btn:visited {
+    display: inline-block;
+    padding: 7px 20px;
+    margin: 2.5px;
+    font-size: 75%;
+    text-transform: uppercase;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px;
+    border: 1px solid white;
+    color: white;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+  }
 }
 
 // Large devices (desktops, 992px and up)
