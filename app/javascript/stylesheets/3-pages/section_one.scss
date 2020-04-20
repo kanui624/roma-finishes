@@ -5,6 +5,7 @@
 .section-one {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
     url("../images/tank.png");
+  background-attachment: fixed;
   background-size: cover;
   background-position: fixed;
   background-repeat: no-repeat;
