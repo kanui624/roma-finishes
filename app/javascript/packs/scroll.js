@@ -10,10 +10,8 @@ $(function () {
 
 $(function () {
   var nav_collapse = $(".navbar-dark");
-  $(window).scroll(function () {
-    var scroll = $(window).scrollTop();
-
-    if (scroll >= 200) {
+  $(window).on("scroll", function () {
+    if ($(window).scrollTop() > 10) {
       nav_collapse.removeClass("navbar-dark").addClass("navbar-light");
     } else {
       nav_collapse.removeClass("navbar-light").addClass("navbar-dark");
