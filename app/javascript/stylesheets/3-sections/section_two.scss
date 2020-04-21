@@ -25,6 +25,10 @@ hr {
 
 //  Card Styling
 
+.card {
+  border: none !important;
+}
+
 .card-body {
   @include font_mix;
   font-weight: 200;
@@ -41,11 +45,4 @@ hr {
 .card-text {
   @include font_mix;
   font-weight: 200;
-}
-
-.card {
-  border: none !important;
-}
-
-.card-img-top {
 }

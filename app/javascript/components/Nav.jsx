@@ -1,6 +1,6 @@
 import React from "react";
 import { Link, animateScroll as scroll } from "react-scroll";
-import w_roma from "../images/w_roma.png";
+import w_roma from "../images/logo/w_roma.png";
 
 const Nav = () => {
   return (
@@ -20,7 +20,7 @@ const Nav = () => {
           >
             <img
               id="wht_nav_logo"
-              src={require("../images/w_roma.png")}
+              src={require("../images/logo/w_roma.png")}
               alt="Roma Logo"
             />
           </Link>
@@ -56,10 +56,10 @@ const Nav = () => {
                 data-toggle="collapse"
                 data-target="#romaMenu"
                 activeClass="active"
-                to="sectwo"
+                to="secthree"
                 spy={true}
                 smooth={true}
-                offset={-115}
+                offset={-100}
                 duration={700}
               >
                 Gallery

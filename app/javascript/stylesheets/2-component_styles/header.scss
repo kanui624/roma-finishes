@@ -15,28 +15,6 @@ h1 {
   margin-bottom: 18px !important;
 }
 
-// .btn-secondary:link,
-// .btn-secondary:visited {
-//   display: inline-block;
-//   padding: 10px 30px;
-//   margin: 5px;
-//   font-size: 80%;
-//   text-transform: uppercase;
-//   font-weight: 300;
-//   text-decoration: none;
-//   border-radius: 200px;
-//   border: 1px solid white;
-//   color: white;
-//   transition: background-color 0.2s, border 0.2s, color 0.2s;
-// }
-
-// .btn-secondary:hover,
-// .btn-secondary:active {
-//   background-color: white;
-//   color: black !important;
-//   border: 1px solid black;
-// }
-
 .quote {
   @include font_mix;
   font-size: 120% !important;

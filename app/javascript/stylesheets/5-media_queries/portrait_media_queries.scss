@@ -1,6 +1,18 @@
 @media (min-width: 320px) and (max-width: 374px) and (orientation: portrait) {
   // SECTION ONE
 
+  .section-one {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
+      url("../images/tank/tank_sm_phone.png");
+    background-size: cover;
+    background-position: fixed;
+    background-repeat: no-repeat;
+    height: 100vh;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+  }
+
   #wht_nav_logo {
     height: 70px;
     margin-left: 15px;
@@ -10,18 +22,6 @@
     @include react_link_mix;
     font-size: 95%;
     margin-right: 15px;
-  }
-
-  .section-one {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
-      url("../images/tank_sm_phone.png");
-    background-size: cover;
-    background-position: fixed;
-    background-repeat: no-repeat;
-    height: 100vh;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
   }
 
   .roma-hero {
@@ -45,6 +45,18 @@
 @media (min-width: 375px) and (max-width: 575.98px) and (orientation: portrait) {
   // SECTION ONE
 
+  .section-one {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
+      url("../images/tank/tank_phone.png");
+    background-size: cover;
+    background-position: fixed;
+    background-repeat: no-repeat;
+    height: 100vh;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+  }
+
   #wht_nav_logo {
     height: 70px;
     margin-left: 15px;
@@ -54,18 +66,6 @@
     @include react_link_mix;
     font-size: 95%;
     margin-right: 15px;
-  }
-
-  .section-one {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
-      url("../images/tank_phone.png");
-    background-size: cover;
-    background-position: fixed;
-    background-repeat: no-repeat;
-    height: 100vh;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
   }
 
   .roma-hero {
@@ -90,9 +90,11 @@
 }
 
 @media (min-width: 768px) and (max-width: 1023px) and (orientation: portrait) {
+  // SECTION ONE
+
   .section-one {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
-      url("../images/tank_ipad.png");
+      url("../images/tank/tank_ipad.png");
     background-size: cover;
     background-position: fixed;
     background-repeat: no-repeat;
@@ -127,9 +129,10 @@
 
 @media (min-width: 1024px) and (orientation: portrait) {
   // SECTION ONE
+
   .section-one {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
-      url("../images/tank_ipad.png");
+      url("../images/tank/tank_ipad.png");
     background-size: cover;
     background-position: fixed;
     background-repeat: no-repeat;

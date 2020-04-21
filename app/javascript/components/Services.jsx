@@ -1,5 +1,5 @@
 import React from "react";
-import w_roma from "../images/b_roma.png";
+import card_placehold from "../images/card_placehold.png";
 
 const Services = () => {
   return (

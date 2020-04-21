@@ -30,12 +30,12 @@ $(function () {
     if ($(window).scrollTop() > 10) {
       $(".navbar .navbar-brand img").attr(
         "src",
-        require("../images/b_roma.png")
+        require("../images/logo/b_roma.png")
       );
     } else {
       $(".navbar .navbar-brand img").attr(
         "src",
-        require("../images/w_roma.png")
+        require("../images/logo/w_roma.png")
       );
     }
   });
