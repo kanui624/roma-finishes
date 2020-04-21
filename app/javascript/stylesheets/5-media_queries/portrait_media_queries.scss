@@ -1,4 +1,6 @@
 @media (min-width: 320px) and (max-width: 374px) and (orientation: portrait) {
+  // SECTION ONE
+
   #wht_nav_logo {
     height: 70px;
     margin-left: 15px;
@@ -44,6 +46,8 @@
 
 // Extra small devices (portrait phones, less than 576px)
 @media (min-width: 375px) and (max-width: 575.98px) and (orientation: portrait) {
+  // SECTION ONE
+
   #wht_nav_logo {
     height: 70px;
     margin-left: 15px;
@@ -87,8 +91,8 @@
   }
 }
 
-// Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) and (max-width: 767.98px) {
+@media (min-width: 576px) and (max-width: 767.98px) and (orientation: portrait) {
+  // SECTION ONE
 }
 
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
@@ -105,37 +109,6 @@
   }
 }
 
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) and (max-width: 991.98px) and (orientation: landscape) {
-  #wht_nav_logo {
-    height: 80px;
-    margin-left: 15px;
-  }
-
-  h1 {
-    font-size: 21px !important;
-  }
-
-  .btn:link,
-  .btn:visited {
-    display: inline-block;
-    padding: 7px 20px;
-    margin: 2.5px;
-    font-size: 75%;
-    text-transform: uppercase;
-    font-weight: 300;
-    text-decoration: none;
-    border-radius: 200px;
-    border: 1px solid white;
-    color: white;
-    transition: background-color 0.2s, border 0.2s, color 0.2s;
-  }
-}
-
-// Large devices (desktops, 992px and up)
-@media (min-width: 992px) and (max-width: 1199.98px) {
-}
-
-// Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) {
+@media (min-width: 1025px) and (orientation: portrait) {
+  // SECTION ONE
 }
