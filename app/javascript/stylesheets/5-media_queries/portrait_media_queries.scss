@@ -1,7 +1,7 @@
 @media (min-width: 320px) and (max-width: 374px) and (orientation: portrait) {
   // SECTION ONE
 
-  .section-one {
+  #tank_blast {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
       url("../images/tank/tank_sm_phone.png");
   }
@@ -38,7 +38,7 @@
 @media (min-width: 375px) and (max-width: 575.98px) and (orientation: portrait) {
   // SECTION ONE
 
-  .section-one {
+  #tank_blast {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
       url("../images/tank/tank_phone.png");
   }
@@ -78,7 +78,7 @@
 @media (min-width: 768px) and (max-width: 1023px) and (orientation: portrait) {
   // SECTION ONE
 
-  .section-one {
+  #tank_blast {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
       url("../images/tank/tank_ipad.png");
   }
@@ -109,7 +109,7 @@
 @media (min-width: 1024px) and (orientation: portrait) {
   // SECTION ONE
 
-  .section-one {
+  #tank_blast {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
       url("../images/tank/tank_ipad.png");
   }

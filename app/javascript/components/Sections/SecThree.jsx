@@ -1,9 +1,13 @@
 import React from "react";
+import GalTitle from "../GalTitle";
+import Gallery from "../Gallery";
 
 const SecThree = () => {
   return (
-    <div className="container-fluid section-three">
-      <h1>Section Three 'Gallery'</h1>
+    <div>
+      <div className="container-fluid" id="semi-break" />
+      <GalTitle />
+      <Gallery />
     </div>
   );
 };
