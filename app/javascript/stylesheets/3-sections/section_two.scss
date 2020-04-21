@@ -1,15 +1,46 @@
-p {
+//  Section 2 Intro
+
+.serv-title {
+  margin-bottom: 0 !important;
   @include font_mix;
+  font-weight: 200;
+  font-size: 30px !important;
+  text-transform: uppercase;
 }
 
-h4 {
+hr {
+  display: block;
+  height: 2px;
+  border: 0;
+  border-top: 1px solid black;
+  margin: 1em 0;
+  padding: 0;
 }
+
+.lead {
+  @include font_mix;
+  font-weight: 200;
+  margin-top: 20px;
+}
+
+//  Card Styling
 
 .card-body {
   @include font_mix;
+  font-weight: 200;
+  font-size: 20px;
 }
 
-.section-two {
+.card-title {
+  @include font_mix;
+  text-transform: uppercase;
+  font-weight: 200;
+  font-size: 20px;
+}
+
+.card-text {
+  @include font_mix;
+  font-weight: 200;
 }
 
 .card {
