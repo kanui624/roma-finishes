@@ -24,23 +24,19 @@
     -o-background-size: cover;
   }
 
-  h1 {
-    font-size: 16px !important;
+  .roma-hero {
+    margin-left: 10px !important;
   }
 
-  .btn:link,
-  .btn:visited {
-    display: inline-block;
-    padding: 7px 20px;
-    margin: 2.5px;
-    font-size: 75%;
-    text-transform: uppercase;
-    font-weight: 300;
-    text-decoration: none;
-    border-radius: 200px;
-    border: 1px solid white;
-    color: white;
-    transition: background-color 0.2s, border 0.2s, color 0.2s;
+  h1 {
+    font-size: 16px !important;
+    letter-spacing: 1px;
+    margin-bottom: 13px !important;
+  }
+
+  .quote {
+    font-size: 90% !important;
+    padding: 5px 15px !important;
   }
 }
 
@@ -71,23 +67,19 @@
     -o-background-size: cover;
   }
 
-  h1 {
-    font-size: 18px !important;
+  .roma-hero {
+    margin-left: 12px !important;
   }
 
-  .btn:link,
-  .btn:visited {
-    display: inline-block;
-    padding: 7px 20px;
-    margin: 2.5px;
-    font-size: 75%;
-    text-transform: uppercase;
-    font-weight: 300;
-    text-decoration: none;
-    border-radius: 200px;
-    border: 1px solid white;
-    color: white;
-    transition: background-color 0.2s, border 0.2s, color 0.2s;
+  h1 {
+    font-size: 16px !important;
+    letter-spacing: 1px;
+    margin-bottom: 15px !important;
+  }
+
+  .quote {
+    font-size: 90% !important;
+    padding: 8px 20px !important;
   }
 }
 
@@ -106,6 +98,27 @@
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
+  }
+
+  .react-link {
+    @include react_link_mix;
+    font-size: 110%;
+    margin-right: 15px;
+  }
+
+  .roma-hero {
+    margin-left: 12px !important;
+  }
+
+  h1 {
+    font-size: 30px !important;
+    letter-spacing: 1px;
+    margin-bottom: 13px !important;
+  }
+
+  .quote {
+    font-size: 110% !important;
+    padding: 10px 25px !important;
   }
 }
 

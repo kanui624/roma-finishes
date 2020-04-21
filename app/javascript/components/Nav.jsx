@@ -9,6 +9,8 @@ const Nav = () => {
         <div className="roma_logo">
           <Link
             className="react-link navbar-brand"
+            data-toggle="collapse"
+            data-target="#romaMenu"
             activeClass="active"
             to="secone"
             spy={true}
