@@ -26,6 +26,7 @@
 
   .roma-hero {
     margin-left: 10px !important;
+    top: 55%;
   }
 
   h1 {
@@ -69,6 +70,7 @@
 
   .roma-hero {
     margin-left: 12px !important;
+    top: 55%;
   }
 
   h1 {
@@ -87,7 +89,7 @@
   // SECTION ONE
 }
 
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+@media (min-width: 768px) and (max-width: 1023px) and (orientation: portrait) {
   .section-one {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
       url("../images/tank_ipad.png");
@@ -108,6 +110,7 @@
 
   .roma-hero {
     margin-left: 12px !important;
+    top: 55%;
   }
 
   h1 {
@@ -122,6 +125,39 @@
   }
 }
 
-@media (min-width: 1025px) and (orientation: portrait) {
+@media (min-width: 1024px) and (orientation: portrait) {
   // SECTION ONE
+  .section-one {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
+      url("../images/tank_ipad.png");
+    background-size: cover;
+    background-position: fixed;
+    background-repeat: no-repeat;
+    height: 100vh;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+  }
+
+  .react-link {
+    @include react_link_mix;
+    font-size: 110%;
+    margin-right: 15px;
+  }
+
+  .roma-hero {
+    margin-left: 12px !important;
+    top: 55%;
+  }
+
+  h1 {
+    font-size: 35px !important;
+    letter-spacing: 1px;
+    margin-bottom: 13px !important;
+  }
+
+  .quote {
+    font-size: 110% !important;
+    padding: 10px 25px !important;
+  }
 }
