@@ -1,4 +1,5 @@
 import React from "react";
+import { Link, animateScroll as scroll } from "react-scroll";
 import w_roma from "../images/w_roma.png";
 
 const Nav = () => {
@@ -6,13 +7,21 @@ const Nav = () => {
     <nav className="navbar navbar-expand-lg fixed-top nav-font">
       <div className="container">
         <div className="roma_logo">
-          <a href="#secone" className="navbar-brand">
+          <Link
+            className="react-link navbar-brand"
+            activeClass="active"
+            to="sectwo"
+            spy={true}
+            smooth={true}
+            offset={-145}
+            duration={700}
+          >
             <img
               id="wht_nav_logo"
               src={require("../images/w_roma.png")}
               alt="Roma Logo"
             />
-          </a>
+          </Link>
         </div>
         <button
           className="navbar-toggler navbar-dark"
@@ -25,24 +34,56 @@ const Nav = () => {
         <div className="collapse navbar-collapse" id="romaMenu">
           <ul className="navbar-nav ml-auto">
             <li className="nav-item ml-auto">
-              <a href="#sectwo" className="nav-link">
-                services
-              </a>
+              <Link
+                className="react-link nav-link"
+                activeClass="active"
+                to="sectwo"
+                spy={true}
+                smooth={true}
+                offset={-145}
+                duration={700}
+              >
+                Services
+              </Link>
             </li>
             <li className="nav-item ml-auto">
-              <a href="#" className="nav-link">
-                gallery
-              </a>
+              <Link
+                className="react-link nav-link"
+                activeClass="active"
+                to="sectwo"
+                spy={true}
+                smooth={true}
+                offset={-145}
+                duration={700}
+              >
+                Gallery
+              </Link>
             </li>
             <li className="nav-item ml-auto">
-              <a href="#" className="nav-link">
-                contact us
-              </a>
+              <Link
+                className="react-link nav-link"
+                activeClass="active"
+                to="sectwo"
+                spy={true}
+                smooth={true}
+                offset={-145}
+                duration={700}
+              >
+                Contact Us
+              </Link>
             </li>
             <li className="nav-item ml-auto">
-              <a href="#" className="nav-link">
-                faq
-              </a>
+              <Link
+                className="react-link nav-link"
+                activeClass="active"
+                to="sectwo"
+                spy={true}
+                smooth={true}
+                offset={-145}
+                duration={700}
+              >
+                Faq
+              </Link>
             </li>
           </ul>
         </div>

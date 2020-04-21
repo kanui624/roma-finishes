@@ -6,8 +6,8 @@
     margin-left: 15px;
   }
 
-  a {
-    @include a_mix;
+  .react-link {
+    @include react_link_mix;
     font-size: 95%;
     margin-right: 15px;
   }
@@ -40,8 +40,8 @@
     margin-left: 15px;
   }
 
-  a {
-    @include a_mix;
+  .react-link {
+    @include react_link_mix;
     font-size: 95%;
     margin-right: 15px;
   }
@@ -74,8 +74,8 @@
     margin-left: 15px;
   }
 
-  a {
-    @include a_mix;
+  .react-link {
+    @include react_link_mix;
     font-size: 95%;
     margin-right: 15px;
   }
@@ -108,8 +108,8 @@
     margin-left: 15px;
   }
 
-  a {
-    @include a_mix;
+  .react-link {
+    @include react_link_mix;
     font-size: 95%;
     margin-right: 15px;
   }

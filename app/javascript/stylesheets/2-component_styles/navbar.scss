@@ -19,8 +19,9 @@ li {
   padding-left: 40px;
 }
 
-a {
-  @include a_mix;
+.react-link {
+  @include react_link_mix;
+  cursor: pointer;
 }
 
 // Nav Scroll Change
