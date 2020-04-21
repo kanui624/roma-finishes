@@ -122,6 +122,13 @@
   }
 }
 
-@media (min-width: 1024px) and (orientation: landscape) {
+@media (min-width: 1025px) and (orientation: landscape) {
   // SECTION ONE
+  .section-one {
+    background-attachment: fixed;
+  }
+
+  #semi-break {
+    background-attachment: fixed;
+  }
 }
