@@ -1,3 +1,5 @@
+// Trigger CSS Active Classes On Scroll
+
 $(function () {
   $(window).on("scroll", function () {
     if ($(window).scrollTop() > 10) {
@@ -7,6 +9,8 @@ $(function () {
     }
   });
 });
+
+// Change Navbar Icon On scroll
 
 $(function () {
   var nav_collapse = $(".navbar-dark");
@@ -18,6 +22,8 @@ $(function () {
     }
   });
 });
+
+// Change Logo On Scroll
 
 $(function () {
   $(window).on("scroll", function () {
