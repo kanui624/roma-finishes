@@ -5,8 +5,8 @@ const Services = () => {
   return (
     <div className="container padding mt-5">
       <div className="row padding card-deck">
-        <div className="col-md-4">
-          <div className="card mb-5">
+        <div className="col-md-4 d-flex align-items-stretch">
+          <div className="card shadow mb-5 bg-white rounded">
             <img
               className="card-img-top img-fluid"
               id="serv-card"
@@ -24,8 +24,8 @@ const Services = () => {
           </div>
         </div>
 
-        <div className="col-md-4">
-          <div className="card mb-5">
+        <div className="col-md-4 d-flex align-items-stretch">
+          <div className="card shadow mb-5 bg-white rounded">
             <img
               className="card-img-top img-fluid"
               id="serv-card"
@@ -43,8 +43,8 @@ const Services = () => {
           </div>
         </div>
 
-        <div className="col-md-4">
-          <div className="card mb-5">
+        <div className="col-md-4 d-flex align-items-stretch">
+          <div className="card shadow mb-5 bg-white rounded">
             <img
               className="card-img-top img-fluid"
               id="serv-card"
@@ -64,8 +64,8 @@ const Services = () => {
       </div>
 
       <div className="row padding card-deck">
-        <div className="col-md-4">
-          <div className="card mb-5">
+        <div className="col-md-4 d-flex align-items-stretch">
+          <div className="card shadow mb-5 bg-white rounded">
             <img
               className="card-img-top img-fluid"
               id="serv-card"
@@ -83,8 +83,8 @@ const Services = () => {
           </div>
         </div>
 
-        <div className="col-md-4">
-          <div className="card mb-5">
+        <div className="col-md-4 d-flex align-items-stretch">
+          <div className="card shadow mb-5 bg-white rounded">
             <img
               className="card-img-top img-fluid"
               id="serv-card"
@@ -102,8 +102,8 @@ const Services = () => {
           </div>
         </div>
 
-        <div className="col-md-4">
-          <div className="card mb-5">
+        <div className="col-md-4 d-flex align-items-stretch">
+          <div className="card shadow mb-5 bg-white rounded">
             <img
               className="card-img-top img-fluid"
               id="serv-card"
