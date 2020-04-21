@@ -10,7 +10,7 @@ const Nav = () => {
           <Link
             className="react-link navbar-brand"
             activeClass="active"
-            to="sectwo"
+            to="secone"
             spy={true}
             smooth={true}
             offset={-145}
@@ -36,11 +36,13 @@ const Nav = () => {
             <li className="nav-item ml-auto">
               <Link
                 className="react-link nav-link"
+                data-toggle="collapse"
+                data-target="#romaMenu"
                 activeClass="active"
                 to="sectwo"
                 spy={true}
                 smooth={true}
-                offset={-145}
+                offset={-115}
                 duration={700}
               >
                 Services
@@ -49,11 +51,13 @@ const Nav = () => {
             <li className="nav-item ml-auto">
               <Link
                 className="react-link nav-link"
+                data-toggle="collapse"
+                data-target="#romaMenu"
                 activeClass="active"
                 to="sectwo"
                 spy={true}
                 smooth={true}
-                offset={-145}
+                offset={-115}
                 duration={700}
               >
                 Gallery
@@ -62,11 +66,13 @@ const Nav = () => {
             <li className="nav-item ml-auto">
               <Link
                 className="react-link nav-link"
+                data-toggle="collapse"
+                data-target="#romaMenu"
                 activeClass="active"
                 to="sectwo"
                 spy={true}
                 smooth={true}
-                offset={-145}
+                offset={-115}
                 duration={700}
               >
                 Contact Us
@@ -75,11 +81,13 @@ const Nav = () => {
             <li className="nav-item ml-auto">
               <Link
                 className="react-link nav-link"
+                data-toggle="collapse"
+                data-target="#romaMenu"
                 activeClass="active"
                 to="sectwo"
                 spy={true}
                 smooth={true}
-                offset={-145}
+                offset={-115}
                 duration={700}
               >
                 Faq
