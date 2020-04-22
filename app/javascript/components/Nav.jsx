@@ -56,11 +56,11 @@ const Nav = () => {
                 data-toggle="collapse"
                 data-target="#romaMenu"
                 activeClass="active"
-                to="secthree"
+                to="gallery-nav-target"
                 spy={true}
                 smooth={true}
-                offset={-100}
-                duration={700}
+                offset={-115}
+                duration={1000}
               >
                 Gallery
               </Link>

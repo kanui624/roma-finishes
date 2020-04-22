@@ -4,13 +4,34 @@ import place_hold from "../images/place_hold.png";
 
 const Gallery = () => {
   return (
-    <div className="image-gallery above-nav">
+    <div className="image-gallery">
       <SRLWrapper>
-        <img
-          id="wht_nav_logo"
-          src={require("../images/place_hold.png")}
-          alt="Roma Logo"
-        />
+        <div className="row-gal">
+          <div className="column-gal">
+            <img src={require("../images/place_hold.png")} alt="Roma Logo" />
+            <img src={require("../images/place_hold.png")} alt="Roma Logo" />
+            <img src={require("../images/place_hold.png")} alt="Roma Logo" />
+            <img src={require("../images/place_hold.png")} alt="Roma Logo" />
+          </div>
+          <div className="column-gal">
+            <img src={require("../images/place_hold.png")} alt="Roma Logo" />
+            <img src={require("../images/place_hold.png")} alt="Roma Logo" />
+            <img src={require("../images/place_hold.png")} alt="Roma Logo" />
+            <img src={require("../images/place_hold.png")} alt="Roma Logo" />
+          </div>
+          <div className="column-gal">
+            <img src={require("../images/place_hold.png")} alt="Roma Logo" />
+            <img src={require("../images/place_hold.png")} alt="Roma Logo" />
+            <img src={require("../images/place_hold.png")} alt="Roma Logo" />
+            <img src={require("../images/place_hold.png")} alt="Roma Logo" />
+          </div>
+          <div className="column-gal">
+            <img src={require("../images/place_hold.png")} alt="Roma Logo" />
+            <img src={require("../images/place_hold.png")} alt="Roma Logo" />
+            <img src={require("../images/place_hold.png")} alt="Roma Logo" />
+            <img src={require("../images/place_hold.png")} alt="Roma Logo" />
+          </div>
+        </div>
       </SRLWrapper>
     </div>
   );

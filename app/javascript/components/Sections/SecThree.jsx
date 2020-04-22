@@ -7,10 +7,10 @@ const SecThree = () => {
   return (
     <div>
       <div className="container-fluid" id="semi-break" />
-      <div className="container-fluid">
+      <div className="container-fluid" id="gallery-nav-target">
         <GalTitle />
       </div>
-      <div className="container">
+      <div className="container-fluid">
         <SimpleReactLightbox>
           <Gallery />
         </SimpleReactLightbox>
