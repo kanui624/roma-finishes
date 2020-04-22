@@ -32,6 +32,24 @@
     font-size: 90% !important;
     padding: 5px 15px !important;
   }
+
+  // SECTION TWO
+
+  .sec-title {
+    font-size: 21px !important;
+  }
+
+  .lead {
+    font-size: 14px !important;
+  }
+
+  .card-title {
+    font-size: 16px !important;
+  }
+
+  .card-text {
+    font-size: 14px !important;
+  }
 }
 
 // Extra small devices (portrait phones, less than 576px)
@@ -69,6 +87,24 @@
     font-size: 90% !important;
     padding: 8px 20px !important;
   }
+
+  // SECTION TWO
+
+  .sec-title {
+    font-size: 21px !important;
+  }
+
+  .lead {
+    font-size: 16px !important;
+  }
+
+  .card-title {
+    font-size: 17px !important;
+  }
+
+  .card-text {
+    font-size: 16px !important;
+  }
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) and (orientation: portrait) {
@@ -103,6 +139,16 @@
   .quote {
     font-size: 110% !important;
     padding: 10px 25px !important;
+  }
+
+  // SECTION TWO
+
+  .card-title {
+    font-size: 16px !important;
+  }
+
+  .card-text {
+    font-size: 14px !important;
   }
 }
 
