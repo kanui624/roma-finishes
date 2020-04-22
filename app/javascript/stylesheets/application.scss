@@ -5,10 +5,14 @@
 // 2 - component_styles
 @import "stylesheets/2-component_styles/navbar";
 @import "stylesheets/2-component_styles/header";
+@import "stylesheets/2-component_styles/uni_sec_styles";
+@import "stylesheets/2-component_styles/serv_cards";
 
 // 3 - Sections
+@import "stylesheets/3-sections/tank_init";
 @import "stylesheets/3-sections/section_one";
 @import "stylesheets/3-sections/section_two";
+@import "stylesheets/3-sections/section_three";
 @import "stylesheets/3-sections/semi_break";
 
 // 4 - Pages
@@ -20,6 +24,3 @@
 
 // External
 @import "bootstrap/scss/bootstrap";
-// @import "tailwindcss/base";
-// @import "tailwindcss/components";
-// @import "tailwindcss/utilities";
