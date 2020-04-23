@@ -1,5 +1,6 @@
 import React from "react";
 import Contact from "../Contact";
+import StoreInfo from "../StoreInfo";
 import Quote from "../Quote";
 import Appoint from "../Appointment";
 
@@ -9,12 +10,7 @@ const SecFour = () => {
       <div className="card-deck">
         <div className="container pt-5">
           <Contact />
-        </div>
-        <div className="container-fluid">
-          <div class="row mt-5">
-            <Quote />
-            <Appoint />
-          </div>
+          <StoreInfo />
         </div>
       </div>
     </div>
