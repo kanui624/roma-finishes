@@ -1,5 +1,5 @@
-#secfour {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
+#third-bg-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url("../images/tank/tank.png");
   background-size: cover;
   background-position: fixed;
@@ -13,7 +13,7 @@
 #contact-card {
   color: $roma_white;
   font-weight: 400 !important;
-  margin-top: 50px !important;
+  //   margin-top: 50px !important;
 }
 
 .lead-contact {

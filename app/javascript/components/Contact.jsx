@@ -5,9 +5,7 @@ const Contact = () => {
     <div className="card" id="contact-card">
       <div className="row text-center">
         <div className="col-12">
-          <h2 className="display-4 mb-5 sec-title contact-title">
-            Contact Us!
-          </h2>
+          <h2 className="mb-5 sec-title contact-title">Contact Us!</h2>
           <div className="container">
             <hr className="contact-hr" />
           </div>
