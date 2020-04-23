@@ -1,10 +1,11 @@
 #semi-break {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
-    url("../images/semi/semi.png");
+    url("../images/semi/semi_newnew.png");
   background-size: cover;
   background-position: fixed;
   background-repeat: no-repeat;
-  height: 50vh;
+  transform: rotateY(180deg);
+  height: 55vh;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;

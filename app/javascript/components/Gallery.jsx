@@ -19,7 +19,10 @@ const Gallery = () => {
         <div className="row-gal">
           <div className="column-gal">
             <div className="overflow">
-              <img src={require("../images/place_hold.png")} alt="Roma Logo" />
+              <img
+                src={require("../images/place_hold_white.png")}
+                alt="Roma Logo"
+              />
             </div>
             <div className="overflow">
               <img
@@ -28,7 +31,10 @@ const Gallery = () => {
               />
             </div>
             <div className="overflow">
-              <img src={require("../images/place_hold.png")} alt="Roma Logo" />
+              <img
+                src={require("../images/place_hold_white.png")}
+                alt="Roma Logo"
+              />
             </div>
             <div className="overflow">
               <img
@@ -46,7 +52,10 @@ const Gallery = () => {
               />
             </div>
             <div className="overflow">
-              <img src={require("../images/place_hold.png")} alt="Roma Logo" />
+              <img
+                src={require("../images/place_hold_white.png")}
+                alt="Roma Logo"
+              />
             </div>
             <div className="overflow">
               <img
@@ -55,13 +64,19 @@ const Gallery = () => {
               />
             </div>
             <div className="overflow">
-              <img src={require("../images/place_hold.png")} alt="Roma Logo" />
+              <img
+                src={require("../images/place_hold_white.png")}
+                alt="Roma Logo"
+              />
             </div>
           </div>
 
           <div className="column-gal">
             <div className="overflow">
-              <img src={require("../images/place_hold.png")} alt="Roma Logo" />
+              <img
+                src={require("../images/place_hold_white.png")}
+                alt="Roma Logo"
+              />
             </div>
             <div className="overflow">
               <img
@@ -70,7 +85,10 @@ const Gallery = () => {
               />
             </div>
             <div className="overflow">
-              <img src={require("../images/place_hold.png")} alt="Roma Logo" />
+              <img
+                src={require("../images/place_hold_white.png")}
+                alt="Roma Logo"
+              />
             </div>
             <div className="overflow">
               <img
@@ -87,7 +105,10 @@ const Gallery = () => {
               />
             </div>
             <div className="overflow">
-              <img src={require("../images/place_hold.png")} alt="Roma Logo" />
+              <img
+                src={require("../images/place_hold_white.png")}
+                alt="Roma Logo"
+              />
             </div>
             <div className="overflow">
               <img
@@ -96,7 +117,10 @@ const Gallery = () => {
               />
             </div>
             <div className="overflow">
-              <img src={require("../images/place_hold.png")} alt="Roma Logo" />
+              <img
+                src={require("../images/place_hold_white.png")}
+                alt="Roma Logo"
+              />
             </div>
           </div>
         </div>

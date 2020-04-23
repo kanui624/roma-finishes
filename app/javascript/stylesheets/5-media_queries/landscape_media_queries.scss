@@ -44,6 +44,12 @@
   .card-text {
     font-size: 16px !important;
   }
+
+  // SEMI BREAK
+  #semi-break {
+    background-position: 50% 63%;
+    height: 65vh;
+  }
 }
 
 @media (min-width: 667px) and (max-width: 735px) and (orientation: landscape) {
@@ -92,6 +98,12 @@
 
   .card-text {
     font-size: 16px !important;
+  }
+
+  // SEMI BREAK
+  #semi-break {
+    background-position: 50% 63%;
+    height: 65vh;
   }
 }
 
@@ -142,13 +154,19 @@
   .card-text {
     font-size: 18px !important;
   }
+
+  // SEMI BREAK
+  #semi-break {
+    background-position: 50% 63%;
+    height: 65vh;
+  }
 }
 
 @media (min-width: 812px) and (max-width: 1023px) and (orientation: landscape) {
   // SECTION ONE
 
   #wht_nav_logo {
-    height: 85px;
+    height: 65px;
     margin-left: 15px;
   }
 
@@ -191,9 +209,23 @@
   .card-text {
     font-size: 12.5px !important;
   }
+
+  // SEMI BREAK
+  #semi-break {
+    background-position: 50% 60%;
+    height: 70vh;
+  }
 }
 
-@media (min-width: 1025px) and (orientation: landscape) {
+@media (min-width: 1024px) and (max-width: 1366px) and (orientation: landscape) {
+  // SEMI BREAK
+  #semi-break {
+    background-position: 50% 90%;
+    height: 55vh;
+  }
+}
+
+@media (min-width: 1367px) and (orientation: landscape) {
   // SECTION ONE
   #tank_blast {
     background-attachment: fixed;
