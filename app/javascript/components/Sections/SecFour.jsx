@@ -28,7 +28,7 @@ const SecFour = () => {
               consequat laborum. Aute tempor exercitation qui irure Lorem
               deserunt eu id dolor consectetur. Culpa et ut aute eu fugiat. Nisi
               dolore mollit officia est nulla commodo culpa sint. Duis
-              exercitation dolor anim incididunt nulla nisi duis quis in magna.
+              exercitation dolor anim incididunt nulla nisi duis quis in magna
             </h6>
           </div>
         </div>
