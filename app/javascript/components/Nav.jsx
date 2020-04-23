@@ -71,10 +71,10 @@ const Nav = () => {
                 data-toggle="collapse"
                 data-target="#romaMenu"
                 activeClass="active"
-                to="sectwo"
+                to="secfour"
                 spy={true}
                 smooth={true}
-                offset={-115}
+                offset={-100}
                 duration={700}
               >
                 Contact Us

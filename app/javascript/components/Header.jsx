@@ -9,15 +9,13 @@ const Head = () => {
         <Link
           className="btn quote"
           activeClass="active"
-          data-toggle="collapse"
-          data-target="#romaMenu"
-          to="sectwo"
+          to="secfour"
           spy={true}
           smooth={true}
-          offset={-115}
-          duration={700}
+          offset={-100}
+          duration={1200}
         >
-          Get a Quote
+          Request a Quote
         </Link>
       </div>
     </header>

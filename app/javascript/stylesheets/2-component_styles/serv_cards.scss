@@ -6,15 +6,17 @@
 .card-body {
   @include font_mix;
   font-weight: 200;
+  font-size: 20px;
 }
 
 .card-title {
   @include font_mix;
   text-transform: uppercase;
+  font-weight: 200;
   font-size: 20px;
 }
 
 .card-text {
   @include font_mix;
-  font-size: 20px;
+  font-weight: 200;
 }
