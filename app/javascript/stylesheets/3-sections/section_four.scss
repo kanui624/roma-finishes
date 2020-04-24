@@ -3,7 +3,7 @@
     url("../images/tank/tank.png");
   background-size: cover;
   background-position: fixed;
-  height: 100vh;
+  height: 42vh;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -66,10 +66,56 @@ hr {
 }
 
 .info-div {
-  margin-bottom: 5px !important;
+  margin-bottom: 15px !important;
 }
 
 .contact-title {
   margin: 0 !important;
   margin-top: 5px !important;
+}
+
+input {
+  margin-bottom: 15px !important;
+}
+
+.g-logo-quote-box {
+  height: 200px;
+  width: 200px;
+}
+
+h6 {
+  @include font_mix;
+  color: white !important;
+  font-size: 20px !important;
+}
+
+form {
+  @include font_mix;
+  color: white !important;
+  font-size: 16px !important;
+}
+
+input {
+  background-color: transparent !important;
+}
+
+textarea {
+  background-color: transparent !important;
+}
+
+::-webkit-input-placeholder {
+  color: white !important;
+  opacity: 0.8 !important;
+}
+:-moz-placeholder {
+  color: white !important;
+  opacity: 0.8 !important;
+}
+::-moz-placeholder {
+  color: white !important;
+  opacity: 0.8 !important;
+}
+:-ms-input-placeholder {
+  color: white !important;
+  opacity: 0.8 !important;
 }

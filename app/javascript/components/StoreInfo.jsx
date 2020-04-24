@@ -3,7 +3,7 @@ import React from "react";
 const StoreInfo = () => {
   return (
     <div className="info-decoration">
-      <div className="row pt-3">
+      <div className="row pt-3 shadow">
         <div className="col col-store">
           <div className="card text-center">
             <h4 className="mt-1">Hours</h4>

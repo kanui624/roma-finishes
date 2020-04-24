@@ -2,16 +2,49 @@ import React from "react";
 
 const Quote = () => {
   return (
-    <div className="col-md-6 d-flex align-items-stretch">
-      <div className="card">
-        <h6>
-          Quote Commodo nostrud amet dolor quis qui est consectetur ut
-          adipisicing dolore officia. Anim nostrud ut duis sit sit consequat
-          nisi exercitation ex. Ex minim anim veniam ut eiusmod. Dolore non enim
-          id do. Reprehenderit dolore eiusmod Lorem sint nisi culpa laboris
-          excepteur dolor cupidatat dolor.
-        </h6>
-      </div>
+    <div className="col-md-6">
+      <form>
+        <div className="form-group">
+          <input
+            type="name"
+            className="form-control"
+            id="exampleFormControlInput1"
+            placeholder="First name"
+          />
+        </div>
+        <div className="form-group">
+          <input
+            type="name"
+            className="form-control"
+            id="exampleFormControlInput1"
+            placeholder="Last Name"
+          />
+        </div>
+        <div className="form-group">
+          <input
+            type="email"
+            className="form-control"
+            id="exampleFormControlInput1"
+            placeholder="Your_email@email.com"
+          />
+        </div>
+        <div className="form-group">
+          <input
+            type="phone number"
+            className="form-control"
+            id="exampleFormControlInput1"
+            placeholder="10 Digit Phone Number"
+          />
+        </div>
+        <div className="form-group">
+          <textarea
+            className="form-control"
+            id="exampleFormControlTextarea1"
+            rows="3"
+            placeholder="Tell Us About Your Project!"
+          />
+        </div>
+      </form>
     </div>
   );
 };
