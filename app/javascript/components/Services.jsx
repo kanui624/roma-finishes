@@ -3,7 +3,7 @@ import card_placehold from "../images/card_placehold.png";
 
 const Services = () => {
   return (
-    <div className="container padding mt-5">
+    <div className="container padding mt-3">
       <div className="row padding card-deck">
         <div className="col-md-4 d-flex align-items-stretch">
           <div className="card shadow mb-5 bg-white rounded">

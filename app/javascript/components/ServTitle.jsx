@@ -2,10 +2,10 @@ import React from "react";
 
 const ServTitle = () => {
   return (
-    <div className="container padding mt-5">
+    <div className="container padding mt-2">
       <div className="row text-center services">
         <div className="col-12">
-          <h2 className="display-4 mb-5 sec-title">Services</h2>
+          <h2 className="display-4 padding mb-4 sec-title">Services</h2>
           <hr />
         </div>
         <div className="col-12">

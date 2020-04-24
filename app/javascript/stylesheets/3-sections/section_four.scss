@@ -1,19 +1,24 @@
 #third-bg-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
     url("../images/tank/tank.png");
   background-size: cover;
   background-position: fixed;
-  background-repeat: no-repeat;
   height: 100vh;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
 }
 
+.contact-bg-deck {
+  background-color: rgba(0, 0, 0, 0.2) !important;
+}
+.card {
+  background-color: rgba(0, 0, 0, 0) !important;
+}
+
 #contact-card {
   color: $roma_white;
   font-weight: 400 !important;
-  //   margin-top: 50px !important;
 }
 
 .lead-contact {
@@ -30,25 +35,41 @@
 h4 {
   font-size: 18px;
   font-weight: 200 !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  margin-bottom: 5px !important;
 }
 
 h5 {
   font-size: 16px !important;
   font-weight: 200 !important;
+  padding: 0 !important;
+  margin: 0 !important;
 }
 
 .contact-hr {
   border-top: 1px solid white;
 }
-.contact-title {
-  margin-top: 50px;
-}
-
-.card {
-  background-color: rgba(200, 200, 200, 0.3) !important;
+.col-store {
+  margin: 0 !important;
 }
 
 .card-header,
 .card-footer {
   opacity: 1 !important;
+}
+
+hr {
+  margin: 0 !important;
+  padding: 0 !important;
+  margin-bottom: 10px !important;
+}
+
+.info-div {
+  margin-bottom: 5px !important;
+}
+
+.contact-title {
+  margin: 0 !important;
+  margin-top: 5px !important;
 }

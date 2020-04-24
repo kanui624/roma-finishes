@@ -44,7 +44,7 @@ const Nav = () => {
                 to="sectwo"
                 spy={true}
                 smooth={true}
-                offset={-115}
+                offset={-100}
                 duration={700}
               >
                 Services
@@ -59,7 +59,7 @@ const Nav = () => {
                 to="gallery-nav-target"
                 spy={true}
                 smooth={true}
-                offset={-115}
+                offset={-100}
                 duration={1000}
               >
                 Gallery

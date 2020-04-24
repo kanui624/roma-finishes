@@ -10,7 +10,7 @@ const SecThree = () => {
       <div className="container-fluid" id="gallery-nav-target">
         <GalTitle />
       </div>
-      <div className="container-fluid">
+      <div className="container-fluid" id="gal-target">
         <SimpleReactLightbox>
           <Gallery />
         </SimpleReactLightbox>

@@ -8,7 +8,7 @@ const SecFour = () => {
   return (
     <div className="container-fluid" id="third-bg-image">
       <div className="card-deck">
-        <div className="container pt-5">
+        <div className="container pt-3 contact-bg-deck mt-3">
           <Contact />
           <StoreInfo />
         </div>
