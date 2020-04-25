@@ -6,16 +6,16 @@ import QLogo from "../QLogo";
 
 const SecFour = () => {
   return (
-    <div className="container-fluid" id="third-bg-image">
-      <div className="card-deck">
-        <div className="container pt-3 contact-bg-deck mt-3">
+    <div className="container-fluid" id="contact-bg-image">
+      <div className="card-deck mt-3 pt-3">
+        <div className="container pt-3 mt-3" id="contact-deck-bg">
           <Contact />
           <StoreInfo />
         </div>
       </div>
-      <div className="card-deck">
-        <div className="container pt-3 contact-bg-deck mt-5">
-          <div className="row shadow">
+      <div className="card-deck pb-3 ">
+        <div className="container pt-3 mt-3" id="contact-deck-bg">
+          <div className="row">
             <QLogo />
             <Quote />
           </div>

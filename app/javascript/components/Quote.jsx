@@ -3,7 +3,7 @@ import React from "react";
 const Quote = () => {
   return (
     <div className="col-md-6">
-      <form>
+      <form className="mb-3">
         <div className="form-group">
           <input
             type="name"
@@ -43,6 +43,11 @@ const Quote = () => {
             rows="3"
             placeholder="Tell Us About Your Project!"
           />
+        </div>
+        <div className="text-center">
+          <button className="btn btn-secondary" id="contact-btn">
+            Submit
+          </button>
         </div>
       </form>
     </div>
