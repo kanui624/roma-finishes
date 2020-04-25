@@ -1,16 +1,16 @@
 #third-bg-image {
+  background-color: rgb(226, 226, 226);
+}
+
+.contact-bg-deck {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
     url("../images/tank/tank.png");
   background-size: cover;
   background-position: fixed;
-  height: 42vh;
+  background-repeat: no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-}
-
-.contact-bg-deck {
-  background-color: rgba(0, 0, 0, 0.2) !important;
 }
 .card {
   background-color: rgba(0, 0, 0, 0) !important;
