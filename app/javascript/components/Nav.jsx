@@ -15,7 +15,7 @@ const Nav = () => {
             to="secone"
             spy={true}
             smooth={true}
-            offset={-145}
+            offset={0}
             duration={700}
           >
             <img
@@ -36,64 +36,132 @@ const Nav = () => {
         <div className="collapse navbar-collapse" id="romaMenu">
           <ul className="navbar-nav ml-auto">
             <li className="nav-item ml-auto">
-              <Link
-                className="react-link nav-link"
-                data-toggle="collapse"
-                data-target="#romaMenu"
-                activeClass="active"
-                to="sectwo"
-                spy={true}
-                smooth={true}
-                offset={-100}
-                duration={700}
-              >
-                Services
-              </Link>
+              <div className="desktop-link">
+                <Link
+                  className="react-link nav-link"
+                  data-toggle="collapse"
+                  data-target="#romaMenu"
+                  activeClass="active"
+                  to="sectwo"
+                  spy={true}
+                  smooth={true}
+                  offset={-100}
+                  duration={700}
+                >
+                  Services
+                </Link>
+              </div>
+              <div className="mobile-link">
+                <Link
+                  className="react-link nav-link"
+                  data-toggle="collapse"
+                  data-target="#romaMenu"
+                  activeClass="active"
+                  to="sectwo"
+                  spy={true}
+                  smooth={true}
+                  offset={-78}
+                  duration={700}
+                >
+                  Services
+                </Link>
+              </div>
             </li>
             <li className="nav-item ml-auto">
-              <Link
-                className="react-link nav-link"
-                data-toggle="collapse"
-                data-target="#romaMenu"
-                activeClass="active"
-                to="gallery-nav-target"
-                spy={true}
-                smooth={true}
-                offset={-100}
-                duration={1000}
-              >
-                Gallery
-              </Link>
+              <div className="desktop-link">
+                <Link
+                  className="react-link nav-link"
+                  data-toggle="collapse"
+                  data-target="#romaMenu"
+                  activeClass="active"
+                  to="gallery-nav-target"
+                  spy={true}
+                  smooth={true}
+                  offset={-100}
+                  duration={1000}
+                >
+                  Gallery
+                </Link>
+              </div>
+              <div className="mobile-link">
+                <Link
+                  className="react-link nav-link"
+                  data-toggle="collapse"
+                  data-target="#romaMenu"
+                  activeClass="active"
+                  to="gallery-nav-target"
+                  spy={true}
+                  smooth={true}
+                  offset={-78}
+                  duration={1000}
+                >
+                  Gallery
+                </Link>
+              </div>
             </li>
             <li className="nav-item ml-auto">
-              <Link
-                className="react-link nav-link"
-                data-toggle="collapse"
-                data-target="#romaMenu"
-                activeClass="active"
-                to="secfour"
-                spy={true}
-                smooth={true}
-                offset={-100}
-                duration={700}
-              >
-                Contact Us
-              </Link>
+              <div className="desktop-link">
+                <Link
+                  className="react-link nav-link"
+                  data-toggle="collapse"
+                  data-target="#romaMenu"
+                  activeClass="active"
+                  to="secfour"
+                  spy={true}
+                  smooth={true}
+                  offset={-100}
+                  duration={700}
+                >
+                  Contact Us
+                </Link>
+              </div>
+              <div className="mobile-link">
+                <Link
+                  className="react-link nav-link"
+                  data-toggle="collapse"
+                  data-target="#romaMenu"
+                  activeClass="active"
+                  to="secfour"
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={700}
+                >
+                  Contact Us
+                </Link>
+              </div>
             </li>
             <li className="nav-item ml-auto">
-              <Link
-                className="react-link nav-link"
-                data-toggle="collapse"
-                data-target="#romaMenu"
-                activeClass="active"
-                to="sectwo"
-                spy={true}
-                smooth={true}
-                offset={-115}
-                duration={700}
-              >
-                Faq
-              </Link>
+              <div className="desktop-link">
+                <Link
+                  className="react-link nav-link"
+                  data-toggle="collapse"
+                  data-target="#romaMenu"
+                  activeClass="active"
+                  to="sectwo"
+                  spy={true}
+                  smooth={true}
+                  offset={-100}
+                  duration={700}
+                >
+                  Faq
+                </Link>
+              </div>
+              <div className="mobile-link">
+                <Link
+                  className="react-link nav-link"
+                  data-toggle="collapse"
+                  data-target="#romaMenu"
+                  activeClass="active"
+                  to="sectwo"
+                  spy={true}
+                  smooth={true}
+                  offset={-78}
+                  duration={700}
+                >
+                  Faq
+                </Link>
+              </div>
             </li>
           </ul>
         </div>

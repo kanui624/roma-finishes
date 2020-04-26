@@ -1,4 +1,4 @@
-@media (min-width: 320px) and (max-width: 374px) and (orientation: portrait) {
+@media (max-width: 374px) and (orientation: portrait) {
   // SECTION ONE
   #tank_blast {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
@@ -30,6 +30,14 @@
   .quote {
     font-size: 90% !important;
     padding: 5px 15px !important;
+  }
+
+  .desktop-link {
+    display: none;
+  }
+
+  .mobile-link {
+    display: block;
   }
 
   // SECTION TWO
@@ -107,6 +115,14 @@
     padding: 8px 20px !important;
   }
 
+  .desktop-link {
+    display: none;
+  }
+
+  .mobile-link {
+    display: block;
+  }
+
   // SECTION TWO
 
   .sec-title {
@@ -142,6 +158,24 @@
 
 @media (min-width: 576px) and (max-width: 767.98px) and (orientation: portrait) {
   // SECTION ONE
+  #wht_nav_logo {
+    height: 80px;
+    margin-left: 15px;
+  }
+
+  h1 {
+    font-size: 27px !important;
+    letter-spacing: 1px;
+    margin-bottom: 15px !important;
+  }
+
+  .desktop-link {
+    display: none;
+  }
+
+  .mobile-link {
+    display: block;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 1023px) and (orientation: portrait) {
@@ -172,6 +206,14 @@
   .quote {
     font-size: 110% !important;
     padding: 10px 25px !important;
+  }
+
+  .desktop-link {
+    display: block;
+  }
+
+  .mobile-link {
+    display: none;
   }
 
   // SECTION TWO
@@ -236,6 +278,15 @@
     font-size: 110% !important;
     padding: 10px 25px !important;
   }
+
+  .desktop-link {
+    display: block;
+  }
+
+  .mobile-link {
+    display: none;
+  }
+
   // SEMI BREAK
   #semi-break {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),

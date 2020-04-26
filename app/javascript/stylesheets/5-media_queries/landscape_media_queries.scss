@@ -1,4 +1,4 @@
-@media (min-width: 568px) and (max-width: 666px) and (orientation: landscape) {
+@media (max-width: 666px) and (orientation: landscape) {
   // SECTION ONE
   #wht_nav_logo {
     height: 70px;
@@ -44,6 +44,14 @@
     font-size: 16px !important;
   }
 
+  .desktop-link {
+    display: none;
+  }
+
+  .mobile-link {
+    display: block;
+  }
+
   // SEMI BREAK
   #semi-break {
     background-position: 50% 63%;
@@ -84,6 +92,14 @@
   .quote {
     font-size: 100% !important;
     padding: 7px 17px !important;
+  }
+
+  .desktop-link {
+    display: none;
+  }
+
+  .mobile-link {
+    display: block;
   }
 
   // SECTION TWO
@@ -146,6 +162,13 @@
     padding: 7px 17px !important;
   }
 
+  .desktop-link {
+    display: none;
+  }
+
+  .mobile-link {
+    display: block;
+  }
   // SECTION TWO
 
   .sec-title {
@@ -180,7 +203,7 @@
   // SECTION ONE
 
   #wht_nav_logo {
-    height: 65px;
+    height: 71px;
     margin-left: 15px;
   }
 
@@ -204,6 +227,14 @@
   .quote {
     font-size: 100% !important;
     padding: 7px 17px !important;
+  }
+
+  .desktop-link {
+    display: none;
+  }
+
+  .mobile-link {
+    display: block;
   }
 
   // SECTION TWO
@@ -245,6 +276,24 @@
 }
 
 @media (min-width: 1024px) and (max-width: 1366px) and (orientation: landscape) {
+  // SECTION ONE
+  #wht_nav_logo {
+    height: 95px;
+    margin-left: 15px;
+  }
+
+  .quote {
+    font-size: 120% !important;
+    padding: 5px 15px !important;
+  }
+
+  .desktop-link {
+    display: block;
+  }
+
+  .mobile-link {
+    display: none;
+  }
   // SEMI BREAK
   #semi-break {
     background-position: 50% 90%;
@@ -263,6 +312,14 @@
     background-attachment: fixed;
   }
 
+  .desktop-link {
+    display: block;
+  }
+
+  .mobile-link {
+    display: none;
+  }
+
   // SEMI BREAK
   #semi-break {
     background-attachment: fixed;
@@ -271,5 +328,13 @@
   // SECTION FOUR
   #contact-bg-image {
     background-attachment: fixed;
+  }
+
+  .desktop-link {
+    display: block;
+  }
+
+  .mobile-link {
+    display: none;
   }
 }

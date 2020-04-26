@@ -15,7 +15,7 @@ const SecFour = () => {
       </div>
       <div className="card-deck pb-5">
         <div className="container pt-3 mt-3" id="contact-deck-bg">
-          <div className="row">
+          <div className="row" id="quote-target">
             <QLogo />
             <Quote />
           </div>
