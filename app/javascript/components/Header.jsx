@@ -9,6 +9,8 @@ const Head = () => {
         <Link
           className="btn quote"
           activeClass="active"
+          data-toggle="collapse"
+          data-target="#romaMenu"
           to="secfour"
           spy={true}
           smooth={true}
