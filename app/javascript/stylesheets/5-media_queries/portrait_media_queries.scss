@@ -1,6 +1,5 @@
 @media (min-width: 320px) and (max-width: 374px) and (orientation: portrait) {
   // SECTION ONE
-
   #tank_blast {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
       url("../images/tank/tank_sm_phone.png");
@@ -34,7 +33,6 @@
   }
 
   // SECTION TWO
-
   .sec-title {
     font-size: 21px !important;
   }
@@ -59,12 +57,24 @@
     transform: rotateY(180deg);
     height: 45vh;
   }
+
+  // SECTION FOUR - CONTACT/QUOTE
+  #logo-comment-mg {
+    margin-top: 5px !important;
+  }
+
+  #contact-h6 {
+    font-size: 16px !important;
+  }
+
+  #g-logo-quote-box {
+    height: 120px;
+    width: 120px;
+  }
 }
 
-// Extra small devices (portrait phones, less than 576px)
 @media (min-width: 375px) and (max-width: 575.98px) and (orientation: portrait) {
   // SECTION ONE
-
   #tank_blast {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
       url("../images/tank/tank_phone.png");
@@ -123,6 +133,11 @@
     transform: rotateY(180deg);
     height: 45vh;
   }
+
+  // SECTION FOUR - CONTACT/QUOTE
+  #logo-comment-mg {
+    margin-top: 5px !important;
+  }
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) and (orientation: portrait) {
@@ -177,6 +192,19 @@
     transform: rotateY(180deg);
     height: 45vh;
   }
+
+  // SECTION FOUR - CONTACT/QUOTE
+  #logo-comment-mg {
+    margin-top: 25px !important;
+  }
+
+  #contact-h5 {
+    font-size: 14px !important;
+  }
+
+  #contact-h6 {
+    font-size: 17.5px !important;
+  }
 }
 
 @media (min-width: 1024px) and (orientation: portrait) {
@@ -215,5 +243,10 @@
     background-position: 93% 0%;
     transform: rotateY(180deg);
     height: 45vh;
+  }
+
+  // SECTION FOUR - CONTACT/QUOTE
+  #logo-comment-mg {
+    margin-top: 27px !important;
   }
 }

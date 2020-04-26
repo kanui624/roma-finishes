@@ -13,7 +13,8 @@ const StoreInfo = () => {
               <hr id="contact-hr" />
             </div>
             <div className="mb-3">
-              <h5 id="contact-h5">710 N 25th Street, Waco, TX 76707</h5>
+              <h5 id="contact-h5">710 N 25th Street</h5>
+              <h5 id="contact-h5">Waco, TX 76707</h5>
             </div>
           </div>
         </div>
@@ -43,7 +44,7 @@ const StoreInfo = () => {
             <div className="mb-3">
               <h5 id="contact-h5">254-981-6471</h5>
               <h5 id="contact-h5">roma_finishes@roma.com</h5>
-              <h5 id="contact-h5">owner_roma_finishes@roma.com</h5>
+              <h5 id="contact-h5">owner_roma@roma.com</h5>
             </div>
           </div>
         </div>
