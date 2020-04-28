@@ -1,4 +1,5 @@
 import React from "react";
+import axois from "axios";
 import Contact from "../Contact";
 import StoreInfo from "../StoreInfo";
 import Quote from "../Quote";
@@ -12,6 +13,12 @@ class SecFour extends React.Component {
       showQuote: true,
     };
   }
+
+  toggleQuote = () => {
+    this.setState({
+      showQuote: !this.state.showQuote,
+    });
+  };
 
   render() {
     const { showQuote } = this.state;
@@ -28,7 +35,11 @@ class SecFour extends React.Component {
           <div className="container pt-3 mt-3" id="contact-deck-bg">
             <div className="row" id="quote-target">
               <QLogo />
-              {showQuote ? <Quote /> : <Submitted />}
+              {showQuote ? (
+                <Quote toggleQuote={this.toggleQuote} />
+              ) : (
+                <Submitted />
+              )}
             </div>
           </div>
         </div>

@@ -1,21 +1,12 @@
 import React from "react";
 
 class Quote extends React.Component {
-  constructor(props) {
-    super(props);
-
-    this.handleSubmit = this.handleSubmit.bind(this);
-  }
-
-  handleSubmit(e) {
-    e.preventDefault();
-    console.log("yep");
-  }
-
   render() {
+    const { toggleQuote } = this.props;
+
     return (
       <div className="col-md-6">
-        <form className="mb-3" onSubmit={this.handleSubmit}>
+        <form className="mb-3">
           <div className="form-group">
             <input
               type="name"
@@ -58,6 +49,7 @@ class Quote extends React.Component {
           </div>
           <div className="text-center">
             <button
+              onClick={() => toggleQuote()}
               type="submit"
               className="btn btn-secondary"
               id="contact-btn"
