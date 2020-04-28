@@ -12,121 +12,123 @@ const options = {
   showDownloadButton: false,
 };
 
-const Gallery = () => {
-  return (
-    <div className="image-gallery">
-      <SRLWrapper options={options}>
-        <div className="row-gal">
-          <div className="column-gal">
-            <div className="overflow">
-              <img
-                src={require("../images/place_hold_white.png")}
-                alt="Roma Logo"
-              />
+class Gallery extends React.Component {
+  render() {
+    return (
+      <div className="image-gallery">
+        <SRLWrapper options={options}>
+          <div className="row-gal">
+            <div className="column-gal">
+              <div className="overflow">
+                <img
+                  src={require("../images/place_hold_white.png")}
+                  alt="Roma Logo"
+                />
+              </div>
+              <div className="overflow">
+                <img
+                  src={require("../images/place_hold_white.png")}
+                  alt="Roma Logo"
+                />
+              </div>
+              <div className="overflow">
+                <img
+                  src={require("../images/place_hold_white.png")}
+                  alt="Roma Logo"
+                />
+              </div>
+              <div className="overflow">
+                <img
+                  src={require("../images/place_hold_white.png")}
+                  alt="Roma Logo"
+                />
+              </div>
             </div>
-            <div className="overflow">
-              <img
-                src={require("../images/place_hold_white.png")}
-                alt="Roma Logo"
-              />
-            </div>
-            <div className="overflow">
-              <img
-                src={require("../images/place_hold_white.png")}
-                alt="Roma Logo"
-              />
-            </div>
-            <div className="overflow">
-              <img
-                src={require("../images/place_hold_white.png")}
-                alt="Roma Logo"
-              />
-            </div>
-          </div>
 
-          <div className="column-gal">
-            <div className="overflow">
-              <img
-                src={require("../images/place_hold_white.png")}
-                alt="Roma Logo"
-              />
+            <div className="column-gal">
+              <div className="overflow">
+                <img
+                  src={require("../images/place_hold_white.png")}
+                  alt="Roma Logo"
+                />
+              </div>
+              <div className="overflow">
+                <img
+                  src={require("../images/place_hold_white.png")}
+                  alt="Roma Logo"
+                />
+              </div>
+              <div className="overflow">
+                <img
+                  src={require("../images/place_hold_white.png")}
+                  alt="Roma Logo"
+                />
+              </div>
+              <div className="overflow">
+                <img
+                  src={require("../images/place_hold_white.png")}
+                  alt="Roma Logo"
+                />
+              </div>
             </div>
-            <div className="overflow">
-              <img
-                src={require("../images/place_hold_white.png")}
-                alt="Roma Logo"
-              />
-            </div>
-            <div className="overflow">
-              <img
-                src={require("../images/place_hold_white.png")}
-                alt="Roma Logo"
-              />
-            </div>
-            <div className="overflow">
-              <img
-                src={require("../images/place_hold_white.png")}
-                alt="Roma Logo"
-              />
-            </div>
-          </div>
 
-          <div className="column-gal">
-            <div className="overflow">
-              <img
-                src={require("../images/place_hold_white.png")}
-                alt="Roma Logo"
-              />
+            <div className="column-gal">
+              <div className="overflow">
+                <img
+                  src={require("../images/place_hold_white.png")}
+                  alt="Roma Logo"
+                />
+              </div>
+              <div className="overflow">
+                <img
+                  src={require("../images/place_hold_white.png")}
+                  alt="Roma Logo"
+                />
+              </div>
+              <div className="overflow">
+                <img
+                  src={require("../images/place_hold_white.png")}
+                  alt="Roma Logo"
+                />
+              </div>
+              <div className="overflow">
+                <img
+                  src={require("../images/place_hold_white.png")}
+                  alt="Roma Logo"
+                />
+              </div>
             </div>
-            <div className="overflow">
-              <img
-                src={require("../images/place_hold_white.png")}
-                alt="Roma Logo"
-              />
-            </div>
-            <div className="overflow">
-              <img
-                src={require("../images/place_hold_white.png")}
-                alt="Roma Logo"
-              />
-            </div>
-            <div className="overflow">
-              <img
-                src={require("../images/place_hold_white.png")}
-                alt="Roma Logo"
-              />
+            <div className="column-gal">
+              <div className="overflow">
+                <img
+                  src={require("../images/place_hold_white.png")}
+                  alt="Roma Logo"
+                />
+              </div>
+              <div className="overflow">
+                <img
+                  src={require("../images/place_hold_white.png")}
+                  alt="Roma Logo"
+                />
+              </div>
+              <div className="overflow">
+                <img
+                  src={require("../images/place_hold_white.png")}
+                  alt="Roma Logo"
+                />
+              </div>
+              <div className="overflow">
+                <img
+                  src={require("../images/place_hold_white.png")}
+                  alt="Roma Logo"
+                />
+              </div>
             </div>
           </div>
-          <div className="column-gal">
-            <div className="overflow">
-              <img
-                src={require("../images/place_hold_white.png")}
-                alt="Roma Logo"
-              />
-            </div>
-            <div className="overflow">
-              <img
-                src={require("../images/place_hold_white.png")}
-                alt="Roma Logo"
-              />
-            </div>
-            <div className="overflow">
-              <img
-                src={require("../images/place_hold_white.png")}
-                alt="Roma Logo"
-              />
-            </div>
-            <div className="overflow">
-              <img
-                src={require("../images/place_hold_white.png")}
-                alt="Roma Logo"
-              />
-            </div>
-          </div>
-        </div>
-      </SRLWrapper>
-    </div>
-  );
-};
+        </SRLWrapper>
+      </div>
+    );
+  }
+}
 
 export default Gallery;
