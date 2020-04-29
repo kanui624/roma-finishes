@@ -1,5 +1,5 @@
 import React from "react";
-import axois from "axios";
+import axios from "axios";
 import Contact from "../Contact";
 import StoreInfo from "../StoreInfo";
 import Quote from "../Quote";
@@ -7,22 +7,22 @@ import QLogo from "../QLogo";
 import Submitted from "../Submitted";
 
 class SecFour extends React.Component {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
     this.state = {
-      showQuote: true,
+      showQuote: false,
     };
   }
 
-  toggleQuote = () => {
-    this.setState({
-      showQuote: !this.state.showQuote,
-    });
+  submitQuote = (data) => {
+    axios
+      .post("/api/v1/quotes", data)
+      .then((res) => this.setState({ showQuote: false }))
+      .catch((err) => console.log(err.response.data));
   };
 
   render() {
     const { showQuote } = this.state;
-
     return (
       <div className="container-fluid" id="contact-bg-image">
         <div className="card-deck mt-3 pt-5">
@@ -36,7 +36,7 @@ class SecFour extends React.Component {
             <div className="row" id="quote-target">
               <QLogo />
               {showQuote ? (
-                <Quote toggleQuote={this.toggleQuote} />
+                <Quote submitQuote={this.submitQuote} />
               ) : (
                 <Submitted />
               )}

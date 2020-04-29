@@ -1,7 +1,6 @@
 {
   "name": "roma_react",
   "private": true,
-  "proxy": "http://localhost:3000",
   "dependencies": {
     "@babel/preset-react": "^7.9.4",
     "@rails/actioncable": "^6.0.0",

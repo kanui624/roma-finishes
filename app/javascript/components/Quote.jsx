@@ -1,18 +1,29 @@
 import React from "react";
 
 class Quote extends React.Component {
-  render() {
-    const { toggleQuote } = this.props;
+  onSubmit(e) {
+    e.preventDefault();
+    const formData = {
+      first_name: this.first_name.value,
+      last_name: this.last_name.value,
+      email: this.email.value,
+      number: this.number.value,
+      project_info: this.project_info.value,
+    };
+    this.props.submitQuote(formData);
+  }
 
+  render() {
     return (
       <div className="col-md-6">
-        <form className="mb-3">
+        <form className="mb-3" onSubmit={(e) => this.onSubmit(e)}>
           <div className="form-group">
             <input
               type="name"
               className="form-control"
               id="exampleFormControlInput1"
               placeholder="First name"
+              ref={(input) => (this.first_name = input)}
             />
           </div>
           <div className="form-group">
@@ -21,6 +32,7 @@ class Quote extends React.Component {
               className="form-control"
               id="exampleFormControlInput1"
               placeholder="Last Name"
+              ref={(input) => (this.last_name = input)}
             />
           </div>
           <div className="form-group">
@@ -29,6 +41,7 @@ class Quote extends React.Component {
               className="form-control"
               id="exampleFormControlInput1"
               placeholder="Your_email@email.com"
+              ref={(input) => (this.email = input)}
             />
           </div>
           <div className="form-group">
@@ -37,6 +50,7 @@ class Quote extends React.Component {
               className="form-control"
               id="exampleFormControlInput1"
               placeholder="10 Digit Phone Number"
+              ref={(input) => (this.number = input)}
             />
           </div>
           <div className="form-group">
@@ -45,11 +59,12 @@ class Quote extends React.Component {
               id="exampleFormControlTextarea1"
               rows="3"
               placeholder="Tell Us About Your Project!"
+              ref={(input) => (this.project_info = input)}
             />
           </div>
           <div className="text-center">
             <button
-              onClick={() => toggleQuote()}
+              value="submit"
               type="submit"
               className="btn btn-secondary"
               id="contact-btn"
