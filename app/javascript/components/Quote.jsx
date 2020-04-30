@@ -1,139 +1,187 @@
 import React from "react";
+import { Formik } from "formik";
+import * as Yup from "yup";
+import Error from "./valErrors";
+
+const numberRegEx = /^((\\+[1-9]{1,4}[ \\-]*)|(\\([0-9]{2,3}\\)[ \\-]*)|([0-9]{2,4})[ \\-]*)*?[0-9]{3,4}?[ \\-]*[0-9]{3,4}?$/;
+
+const validationSchema = Yup.object().shape({
+  first_name: Yup.string()
+    .min(1, "must have at least one character")
+    .max(30, "must be less than 30 characters")
+    .required("please enter a first name"),
+
+  last_name: Yup.string()
+    .min(1, "must have at least one character")
+    .max(30, "must be less than 30 characters")
+    .required("please enter a last name"),
+
+  email: Yup.string()
+    .email("please enter a valid email")
+    .required("please enter an email"),
+
+  number: Yup.string()
+    .matches(numberRegEx, "invalid phone number")
+    .max(13, "please enter a valid phone number")
+    .required("please enter a valid phone number"),
+
+  project_info: Yup.string()
+    .min(20, "project description must be at lest 20 characters")
+    .max(500, "must be less than 500 characters")
+    .required("Describe a bit about your project"),
+});
 
 class Quote extends React.Component {
-  onSubmit(e) {
-    e.preventDefault();
-    const formData = {
-      first_name: this.first_name.value,
-      last_name: this.last_name.value,
-      email: this.email.value,
-      number: this.number.value,
-      project_info: this.project_info.value,
-    };
-    this.props.submitQuote(formData);
-  }
-
   render() {
     return (
       <div className="col-md-6">
-        <form className="mb-3" onSubmit={(e) => this.onSubmit(e)}>
-          <div className="form-group">
-            <input
-              type="name"
-              className="form-control"
-              id="exampleFormControlInput1"
-              placeholder="First name"
-              ref={(input) => (this.first_name = input)}
-            />
-          </div>
-          <div className="form-group">
-            <input
-              type="name"
-              className="form-control"
-              id="exampleFormControlInput1"
-              placeholder="Last Name"
-              ref={(input) => (this.last_name = input)}
-            />
-          </div>
-          <div className="form-group">
-            <input
-              type="email"
-              className="form-control"
-              id="exampleFormControlInput1"
-              placeholder="Your_email@email.com"
-              ref={(input) => (this.email = input)}
-            />
-          </div>
-          <div className="form-group">
-            <input
-              type="phone number"
-              className="form-control"
-              id="exampleFormControlInput1"
-              placeholder="10 Digit Phone Number"
-              ref={(input) => (this.number = input)}
-            />
-          </div>
-          <div className="form-group">
-            <textarea
-              className="form-control"
-              id="exampleFormControlTextarea1"
-              rows="3"
-              placeholder="Tell Us About Your Project!"
-              ref={(input) => (this.project_info = input)}
-            />
-          </div>
-          <div className="text-center">
-            <button
-              value="submit"
-              type="submit"
-              className="btn btn-secondary"
-              id="contact-btn"
-            >
-              Submit
-            </button>
-          </div>
-        </form>
+        <Formik
+          initialValues={{
+            first_name: "",
+            last_name: "",
+            email: "",
+            number: "",
+            project_info: "",
+          }}
+          validationSchema={validationSchema}
+          onSubmit={(e) => {
+            const formData = {
+              first_name: this.first_name.value,
+              last_name: this.last_name.value,
+              email: this.email.value,
+              number: this.number.value,
+              project_info: this.project_info.value,
+            };
+            this.props.submitQuote(formData);
+          }}
+        >
+          {({
+            values,
+            errors,
+            touched,
+            handleChange,
+            handleBlur,
+            handleSubmit,
+            isSubmitting,
+          }) => (
+            <form className="mb-3" onSubmit={handleSubmit}>
+              <div className="form-group">
+                <input
+                  type="text"
+                  name="first_name"
+                  id="first_name"
+                  className={
+                    touched.first_name && errors.name
+                      ? "form-control has-error"
+                      : "form-control"
+                  }
+                  placeholder="First Name"
+                  ref={(input) => (this.first_name = input)}
+                  onChange={handleChange}
+                  onBlur={handleBlur}
+                  value={values.name}
+                />
+                <Error
+                  id="error-id"
+                  touched={touched.first_name}
+                  message={errors.first_name}
+                />
+              </div>
+              <div className="form-group">
+                <input
+                  type="text"
+                  name="last_name"
+                  id="last_name"
+                  className={
+                    touched.last_name && errors.name
+                      ? "form-control has-error"
+                      : "form-control"
+                  }
+                  placeholder="Last Name"
+                  ref={(input) => (this.last_name = input)}
+                  onChange={handleChange}
+                  onBlur={handleBlur}
+                  value={values.name}
+                />
+                <Error touched={touched.last_name} message={errors.last_name} />
+              </div>
+              <div className="form-group">
+                <input
+                  type="text"
+                  name="email"
+                  id="email"
+                  className={
+                    touched.email && errors.name
+                      ? "form-control has-error"
+                      : "form-control"
+                  }
+                  placeholder="Your_email@email.com"
+                  ref={(input) => (this.email = input)}
+                  onChange={handleChange}
+                  onBlur={handleBlur}
+                  value={values.name}
+                />
+                <Error touched={touched.email} message={errors.email} />
+              </div>
+              <div className="form-group">
+                <input
+                  type="text"
+                  name="number"
+                  id="number"
+                  className={
+                    touched.number && errors.name
+                      ? "form-control has-error"
+                      : "form-control"
+                  }
+                  placeholder="10 Digit Phone Number"
+                  ref={(input) => (this.number = input)}
+                  onChange={handleChange}
+                  onBlur={handleBlur}
+                  value={values.name}
+                />
+                <Error touched={touched.number} message={errors.number} />
+              </div>
+              <div className="form-group">
+                <textarea
+                  type="text"
+                  name="project_info"
+                  id="project_info"
+                  maxLength="500"
+                  className={
+                    touched.project_info && errors.name
+                      ? "form-control has-error"
+                      : "form-control"
+                  }
+                  rows="3"
+                  placeholder="Tell Us About Your Project!"
+                  ref={(input) => (this.project_info = input)}
+                  onChange={handleChange}
+                  onBlur={handleBlur}
+                  value={values.name}
+                />
+                <p className="text-right" id="count"></p>
+                <Error
+                  touched={touched.project_info}
+                  message={errors.project_info}
+                />
+              </div>
+              <div className="text-center">
+                <button
+                  value="submit"
+                  type="submit"
+                  className="btn btn-secondary"
+                  id="contact-btn"
+                  disabled={isSubmitting}
+                >
+                  Submit
+                </button>
+              </div>
+            </form>
+          )}
+        </Formik>
       </div>
     );
   }
 }
 
 export default Quote;
-
-// import React from "react";
-
-// const Quote = () => {
-//   return (
-//     <div className="col-md-6">
-//       <form className="mb-3">
-//         <div className="form-group">
-//           <input
-//             type="name"
-//             className="form-control"
-//             id="exampleFormControlInput1"
-//             placeholder="First name"
-//           />
-//         </div>
-//         <div className="form-group">
-//           <input
-//             type="name"
-//             className="form-control"
-//             id="exampleFormControlInput1"
-//             placeholder="Last Name"
-//           />
-//         </div>
-//         <div className="form-group">
-//           <input
-//             type="email"
-//             className="form-control"
-//             id="exampleFormControlInput1"
-//             placeholder="Your_email@email.com"
-//           />
-//         </div>
-//         <div className="form-group">
-//           <input
-//             type="phone number"
-//             className="form-control"
-//             id="exampleFormControlInput1"
-//             placeholder="10 Digit Phone Number"
-//           />
-//         </div>
-//         <div className="form-group">
-//           <textarea
-//             className="form-control"
-//             id="exampleFormControlTextarea1"
-//             rows="3"
-//             placeholder="Tell Us About Your Project!"
-//           />
-//         </div>
-//         <div className="text-center">
-//           <button className="btn btn-secondary" id="contact-btn">
-//             Submit
-//           </button>
-//         </div>
-//       </form>
-//     </div>
-//   );
-// };
-
-// export default Quote;
