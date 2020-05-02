@@ -65,6 +65,24 @@ form {
   @include font_mix;
 }
 
+textarea:hover,
+input:hover,
+textarea:active,
+input:active,
+textarea:focus,
+input:focus,
+button:focus,
+button:active,
+button:hover,
+label:focus,
+.btn:active,
+.btn.active {
+  outline: 0px !important;
+  outline-color: $roma_green;
+  -webkit-appearance: none;
+  box-shadow: none !important;
+}
+
 input {
   background-color: transparent !important;
   color: white !important;

@@ -139,7 +139,7 @@ class Nav extends React.Component {
                     data-toggle="collapse"
                     data-target="#romaMenu"
                     activeClass="active"
-                    to="sectwo"
+                    to="secfive"
                     spy={true}
                     smooth={true}
                     offset={-100}
@@ -154,7 +154,7 @@ class Nav extends React.Component {
                     data-toggle="collapse"
                     data-target="#romaMenu"
                     activeClass="active"
-                    to="sectwo"
+                    to="secfive"
                     spy={true}
                     smooth={true}
                     offset={-78}
