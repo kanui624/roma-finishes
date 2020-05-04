@@ -10,8 +10,12 @@
   transition: box-shadow 0.3s;
 }
 
-.faq:hover {
-  box-shadow: 2px 2px 4px 5px rgba(179, 179, 179, 0.267) !important;
+.faq-1 {
+  transition: box-shadow 0.3s;
+}
+
+.faq-1:hover {
+  box-shadow: 4px 4px 8px 5px rgba(179, 179, 179, 0.336) !important;
 }
 
 .faq:hover .faq-img-button {
@@ -32,6 +36,7 @@
 }
 
 .faq-answer {
-  max-height: 0;
-  overflow: hidden;
+  @include font_mix;
+  font-size: 18px;
+  font-weight: 300;
 }
