@@ -4,8 +4,8 @@ import { Link, animateScroll as scroll } from "react-scroll";
 class Head extends React.Component {
   render() {
     return (
-      <header>
-        <div className="container roma-hero">
+      <div className="container">
+        <div className="roma-hero">
           <h1>Home | Business | Industrial</h1>
           <div className="desktop-link">
             <Link
@@ -38,7 +38,7 @@ class Head extends React.Component {
             </Link>
           </div>
         </div>
-      </header>
+      </div>
     );
   }
 }
