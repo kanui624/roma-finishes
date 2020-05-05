@@ -185,7 +185,6 @@ textarea {
 #count {
   @include font_mix;
   color: white;
-  float: right;
   font-weight: 300 !important;
   font-size: 16px !important;
   margin: 0 !important;
@@ -201,8 +200,23 @@ textarea {
   padding: 20px !important;
 }
 
-.overflow-m-b {
-  overflow: auto;
-  margin: 0 !important;
-  padding: 0 !important;
+.quote-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.textarea-grid-error-counter {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.textarea-error {
+  grid-column-start: 2;
+  grid-column-end: 4;
+}
+
+.textarea-counter {
+  grid-column-start: 4;
+  grid-column-end: 5;
 }

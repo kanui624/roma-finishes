@@ -5,30 +5,30 @@ import Error from "./valErrors";
 
 const numberRegEx = /^((\\+[1-9]{1,4}[ \\-]*)|(\\([0-9]{2,3}\\)[ \\-]*)|([0-9]{2,4})[ \\-]*)*?[0-9]{3,4}?[ \\-]*[0-9]{3,4}?$/;
 
+const nameRegEx = /^[a-z ,.'-]+$/i;
+
 const validationSchema = Yup.object().shape({
   first_name: Yup.string()
-    .min(1, "must have at least one character")
-    .max(30, "must be less than 30 characters")
-    .required("please enter a first name"),
+    .matches(nameRegEx, "Invalid First Name")
+    .max(30, "30 Characters Max")
+    .required("Required"),
 
   last_name: Yup.string()
-    .min(1, "must have at least one character")
-    .max(30, "must be less than 30 characters")
-    .required("please enter a last name"),
+    .matches(nameRegEx, "Invalid Last Name")
+    .max(30, "30 Characters Max")
+    .required("Required"),
 
-  email: Yup.string()
-    .email("enter a valid email")
-    .required("please enter an email"),
+  email: Yup.string().email("Invalid Email").required("Required"),
 
   number: Yup.string()
-    .matches(numberRegEx, "enter a valid phone number")
-    .max(13, "enter a valid phone number")
-    .required("please enter a phone number"),
+    .matches(numberRegEx, "Invalid Phone Number")
+    .max(13, "Invalid Phone Number")
+    .required("Required"),
 
   project_info: Yup.string()
-    .min(20, "20 characters min")
-    .max(500, "must be less than 500 characters")
-    .required("describe your project"),
+    .min(20, "20 Characters Min")
+    .max(500, "500 characters Max")
+    .required("Required"),
 });
 
 class Quote extends React.Component {
@@ -159,12 +159,18 @@ class Quote extends React.Component {
                   onBlur={handleBlur}
                   value={values.name}
                 />
-                <div className="text-right" id="count" />
-                <Error
-                  touched={touched.project_info}
-                  message={errors.project_info}
-                />
-                <div className="text-center">
+                <div className="textarea-grid-error-counter">
+                  <div className="textarea-error">
+                    <Error
+                      touched={touched.project_info}
+                      message={errors.project_info}
+                    />
+                  </div>
+                  <div className="textarea-counter">
+                    <div className="text-right" id="count" />
+                  </div>
+                </div>
+                <div className="quote-button">
                   <button
                     value="submit"
                     type="submit"
