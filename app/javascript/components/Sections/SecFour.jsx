@@ -10,7 +10,7 @@ class SecFour extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      showQuote: false,
+      showQuote: true,
     };
   }
 
@@ -35,9 +35,11 @@ class SecFour extends React.Component {
           <div className="container " id="contact-deck-bg">
             <div className="quote-deck">
               <div className="row quote-row" id="quote-target">
-                <QLogo />
                 {showQuote ? (
-                  <Quote submitQuote={this.submitQuote} />
+                  <>
+                    <QLogo />
+                    <Quote submitQuote={this.submitQuote} />
+                  </>
                 ) : (
                   <Submitted />
                 )}

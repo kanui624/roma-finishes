@@ -11,8 +11,6 @@ class Head extends React.Component {
             <Link
               className="btn quote"
               activeClass="active"
-              data-toggle="collapse"
-              data-target="#romaMenu"
               to="quote-target"
               spy={true}
               smooth={true}
@@ -26,12 +24,10 @@ class Head extends React.Component {
             <Link
               className="btn quote"
               activeClass="active"
-              data-toggle="collapse"
-              data-target="#romaMenu"
               to="quote-target"
               spy={true}
               smooth={true}
-              offset={-90}
+              offset={-110}
               duration={1200}
             >
               Request a Quote

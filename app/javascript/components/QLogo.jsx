@@ -18,7 +18,9 @@ class QLogo extends React.Component {
             />
           </div>
           <div className="quote-comment">
-            <h6 id="contact-h6">Look forward to working with you!</h6>
+            <h6 className="below-q-logo-margin" id="contact-h6">
+              Look forward to working with you!
+            </h6>
           </div>
         </div>
       </div>
