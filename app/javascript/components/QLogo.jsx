@@ -7,8 +7,7 @@ class QLogo extends React.Component {
       <div className="logo-card col-md-6">
         <div className="card text-center left-logo">
           <div className="quote-comment" id="logo-comment-mg">
-            <h6 id="contact-h6">Tell us about your project below,</h6>
-            <h6 id="contact-h6">We'll send you a free quote!</h6>
+            <h6 id="contact-h6">Tell us about your project!</h6>
           </div>
           <div>
             <img
@@ -19,7 +18,7 @@ class QLogo extends React.Component {
           </div>
           <div className="quote-comment">
             <h6 className="below-q-logo-margin" id="contact-h6">
-              Look forward to working with you!
+              We'll send you a free quote!
             </h6>
           </div>
         </div>

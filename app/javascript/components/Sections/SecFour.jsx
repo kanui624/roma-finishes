@@ -5,6 +5,7 @@ import StoreInfo from "../StoreInfo";
 import Quote from "../Quote";
 import QLogo from "../QLogo";
 import Submitted from "../Submitted";
+import { element } from "prop-types";
 
 class SecFour extends React.Component {
   constructor(props) {
@@ -17,7 +18,13 @@ class SecFour extends React.Component {
   submitQuote = (data) => {
     axios
       .post("/api/v1/quotes", data)
-      .then((res) => this.setState({ showQuote: false }))
+      .then((res) => {
+        this.setState({ showQuote: false });
+        var element = document.getElementById("quote-target");
+        element.scrollIntoView({
+          block: "center",
+        });
+      })
       .catch((err) => console.log(err.response.data));
   };
 
