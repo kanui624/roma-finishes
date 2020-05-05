@@ -34,7 +34,7 @@ const validationSchema = Yup.object().shape({
 class Quote extends React.Component {
   render() {
     return (
-      <div className="col-md-6">
+      <div className="col-md-6 quote-form">
         <Formik
           initialValues={{
             first_name: "",
@@ -64,7 +64,7 @@ class Quote extends React.Component {
             handleSubmit,
             isSubmitting,
           }) => (
-            <form className="mb-3" onSubmit={handleSubmit}>
+            <form onSubmit={handleSubmit}>
               <div className="form-group">
                 <input
                   type="text"

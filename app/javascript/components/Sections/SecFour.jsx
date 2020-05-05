@@ -25,21 +25,23 @@ class SecFour extends React.Component {
     const { showQuote } = this.state;
     return (
       <div className="container-fluid" id="contact-bg-image">
-        <div className="card-deck">
+        <div className="card-deck contact-deck">
           <div className="container" id="contact-deck-bg">
             <Contact />
             <StoreInfo />
           </div>
         </div>
-        <div className="card-deck">
+        <div className="card-deck quote-deck-out">
           <div className="container " id="contact-deck-bg">
-            <div className="row" id="quote-target">
-              <QLogo />
-              {showQuote ? (
-                <Quote submitQuote={this.submitQuote} />
-              ) : (
-                <Submitted />
-              )}
+            <div className="quote-deck">
+              <div className="row quote-row" id="quote-target">
+                <QLogo />
+                {showQuote ? (
+                  <Quote submitQuote={this.submitQuote} />
+                ) : (
+                  <Submitted />
+                )}
+              </div>
             </div>
           </div>
         </div>
