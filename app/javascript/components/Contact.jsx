@@ -7,7 +7,6 @@ class Contact extends React.Component {
         <div className="row ">
           <div className="col-12">
             <h2 className="sec-title contact-title text-center">Contact Us!</h2>
-            <div className="container"></div>
           </div>
         </div>
       </div>

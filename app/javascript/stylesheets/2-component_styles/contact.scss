@@ -3,14 +3,21 @@
   background-color: rgba(0, 0, 0, 0) !important;
 }
 
+.card-deck {
+  margin-top: 20px !important;
+  padding-top: 20px !important;
+}
+
 #contact-deck-bg {
   background-color: rgba(0, 0, 0, 0.2) !important;
   border-radius: 25px;
+  padding: 0 !important;
 }
 
 #contact-card {
   color: $roma_white;
   font-weight: 400 !important;
+  margin: 0 !important;
 }
 
 #contact-info-dec {
@@ -20,28 +27,46 @@
 
 .contact-title {
   margin: 0 !important;
+  padding: 0 !important;
+  margin-top: 20px !important;
+  margin-bottom: 20px !important;
+  color: white;
 }
 
-#contact-h4 {
+.contact-info-titles {
   font-size: 18px;
   font-weight: 200 !important;
   padding: 0 !important;
   margin: 0 !important;
-  margin-bottom: 6px !important;
 }
 
-#contact-hr {
+.contact-info-hrs {
   border-top: 1px solid rgba(255, 255, 255, 0.5);
+  margin: 0 !important;
+  padding: 0 !important;
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
 }
 
-#contact-h5 {
+.contact-info {
   font-size: 16px !important;
   font-weight: 200 !important;
   padding: 0 !important;
   margin: 0 !important;
 }
 
+.info-sec {
+  margin-bottom: 20px !important;
+}
 // FORM CARD STYLES
+
+.left-logo {
+  margin: 0 !important;
+  padding: 0 !important;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
 
 #g-logo-quote-box {
   height: 150px;
@@ -50,9 +75,9 @@
   margin-bottom: 25px !important;
 }
 
-#logo-comment-mg {
-  margin-top: 25px !important;
-}
+// #logo-comment-mg {
+//   margin-top: 25px !important;
+// }
 
 #contact-h6 {
   @include font_mix;

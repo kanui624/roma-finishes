@@ -61,7 +61,7 @@ class Nav extends React.Component {
                     to="sectwo"
                     spy={true}
                     smooth={true}
-                    offset={-78}
+                    offset={-70}
                     duration={700}
                   >
                     Services
@@ -93,7 +93,7 @@ class Nav extends React.Component {
                     to="gallery-nav-target"
                     spy={true}
                     smooth={true}
-                    offset={-78}
+                    offset={-70}
                     duration={1000}
                   >
                     Gallery
@@ -157,7 +157,7 @@ class Nav extends React.Component {
                     to="secfive"
                     spy={true}
                     smooth={true}
-                    offset={-78}
+                    offset={-70}
                     duration={700}
                   >
                     Faq

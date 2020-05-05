@@ -3,11 +3,11 @@ import React from "react";
 class GalTitle extends React.Component {
   render() {
     return (
-      <div className="container padding mt-2">
+      <div className="container">
         <div className="row text-center">
           <div className="col-12">
-            <h2 className="display-4 padding mb-4 sec-title">Gallery</h2>
-            <hr />
+            <h2 className="sec-title">Gallery</h2>
+            <hr className="sec-title-hr" />
           </div>
           {/* <div className="col-12">
           <p className="container lead">See our work!</p>

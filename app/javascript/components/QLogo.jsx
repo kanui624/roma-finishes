@@ -4,8 +4,8 @@ import full_roma from "../images/logo/full_roma.png";
 class QLogo extends React.Component {
   render() {
     return (
-      <div className="col-md-6 align-items-stretch">
-        <div className="card text-center">
+      <div className="left-logo col-md-6">
+        <div className="card text-center logo-card">
           <div className="quote-comment" id="logo-comment-mg">
             <h6 id="contact-h6">Tell us about your project below,</h6>
             <h6 id="contact-h6">We'll send you a free quote!</h6>

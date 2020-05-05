@@ -1,28 +1,38 @@
 @media (max-width: 374px) and (orientation: portrait) {
-  // SECTION ONE
+  // SECTION ONE - HEADER
+
+  // BG
   #tank_blast {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
+    background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.75)),
       url("../images/tank/tank_sm_phone.png");
   }
 
+  // NAVBAR
   #wht_nav_logo {
     height: 70px;
-    margin-left: 15px;
+    margin-left: 17px;
+  }
+
+  .navbar-toggler {
+    padding: 15px !important;
+  }
+
+  .navbar-nav .nav-link {
+    padding-right: 15px !important;
   }
 
   .react-link {
     @include react_link_mix;
-    font-size: 95%;
-    margin-right: 15px;
+    font-size: 85%;
   }
 
+  // HEADER
   .roma-hero {
-    margin-left: 10px !important;
-    top: 55%;
+    margin: 0 !important;
   }
 
   h1 {
-    font-size: 16px !important;
+    font-size: 100% !important;
     letter-spacing: 1px;
     margin-bottom: 13px !important;
   }
@@ -32,6 +42,7 @@
     padding: 5px 15px !important;
   }
 
+  // ALTERNATE LINKS BASED ON DISPLAY
   .desktop-link {
     display: none;
   }
@@ -41,16 +52,29 @@
   }
 
   // SECTION TWO
+
+  // SERVICES TITLE
   .sec-title {
     font-size: 21px !important;
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+  }
+
+  .sec-title-hr {
+    margin-bottom: 20px !important;
+  }
+
+  .lead-container {
+    margin-bottom: 20px !important;
   }
 
   .lead {
-    font-size: 14px !important;
+    font-size: 13.5px !important;
   }
 
+  // SERVICE CARDS
   .card-title {
-    font-size: 16px !important;
+    font-size: 15px !important;
   }
 
   .card-text {
@@ -67,6 +91,11 @@
   }
 
   // SECTION FOUR - CONTACT/QUOTE
+
+  .info-sec {
+    margin-bottom: 10px !important;
+  }
+
   #logo-comment-mg {
     margin-top: 5px !important;
   }

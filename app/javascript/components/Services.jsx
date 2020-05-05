@@ -4,8 +4,8 @@ import card_placehold from "../images/card_placehold.png";
 class Services extends React.Component {
   render() {
     return (
-      <div className="container padding mt-3">
-        <div className="row padding card-deck">
+      <div className="container">
+        <div className="row card-deck">
           <div className="col-md-4 d-flex align-items-stretch">
             <div className="card shadow mb-5 bg-white rounded">
               <img
@@ -15,7 +15,7 @@ class Services extends React.Component {
               />
               <div className="card-body text-center">
                 <h4 className="card-title">Dry Ice Blasting</h4>
-                <hr />
+                <hr className="cards-hr" />
                 <p className="card-text">
                   This is ideal for resurfacing, however, we can utilize a
                   variety of eco-friendly methods to meet your surface treatment
@@ -34,7 +34,7 @@ class Services extends React.Component {
               />
               <div className="card-body text-center">
                 <h4 className="card-title">Sand Blasting</h4>
-                <hr />
+                <hr className="cards-hr" />
                 <p className="card-text">
                   This is ideal for resurfacing, however, we can utilize a
                   variety of eco-friendly methods to meet your surface treatment
@@ -53,7 +53,7 @@ class Services extends React.Component {
               />
               <div className="card-body text-center">
                 <h4 className="card-title">Pressure and Steam Washing</h4>
-                <hr />
+                <hr className="cards-hr" />
                 <p className="card-text">
                   This is ideal for resurfacing, however, we can utilize a
                   variety of eco-friendly methods to meet your surface treatment
@@ -74,7 +74,7 @@ class Services extends React.Component {
               />
               <div className="card-body text-center">
                 <h4 className="card-title">Mechanical Part Washing</h4>
-                <hr />
+                <hr className="cards-hr" />
                 <p className="card-text">
                   This is ideal for resurfacing, however, we can utilize a
                   variety of eco-friendly methods to meet your surface treatment
@@ -93,7 +93,7 @@ class Services extends React.Component {
               />
               <div className="card-body text-center">
                 <h4 className="card-title">Glass Bead Polish</h4>
-                <hr />
+                <hr className="cards-hr" />
                 <p className="card-text">
                   This is ideal for resurfacing, however, we can utilize a
                   variety of eco-friendly methods to meet your surface treatment
@@ -112,7 +112,7 @@ class Services extends React.Component {
               />
               <div className="card-body text-center">
                 <h4 className="card-title">Painting</h4>
-                <hr />
+                <hr className="cards-hr" />
                 <p className="card-text">
                   This is ideal for resurfacing, however, we can utilize a
                   variety of eco-friendly methods to meet your surface treatment

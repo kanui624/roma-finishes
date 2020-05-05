@@ -6,7 +6,7 @@ class FaqTitle extends React.Component {
       <div className="container padding mt-2">
         <div className="row text-center services mb-3">
           <div className="col-12">
-            <h2 className="display-4 padding mb-4 sec-title">FAQ</h2>
+            <h2 className="display-4 padding sec-title">FAQ</h2>
             <hr />
           </div>
           <div className="col-12">

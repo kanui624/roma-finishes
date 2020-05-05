@@ -6,17 +6,28 @@
 .card-body {
   @include font_mix;
   font-weight: 200;
-  font-size: 20px;
+  font-size: 18px;
+  margin: 0 !important;
+  padding: 10px !important;
 }
 
 .card-title {
   @include font_mix;
   text-transform: uppercase;
   font-weight: 200;
-  font-size: 20px;
+  font-size: 17px;
+  margin: 0 !important;
+  margin-bottom: 10px !important;
+}
+
+.cards-hr {
+  margin: 0 !important;
+  margin-bottom: 10px !important;
 }
 
 .card-text {
   @include font_mix;
-  font-weight: 200;
+  font-weight: 200 !important;
+  margin: 0 !important;
+  padding: 0 !important;
 }

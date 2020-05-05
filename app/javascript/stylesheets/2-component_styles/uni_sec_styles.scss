@@ -1,26 +1,36 @@
 // Universal Section Styles
 
 .sec-title {
-  margin-top: 20px !important;
-  margin-bottom: 0 !important;
+  margin-top: 40px !important;
+  margin-bottom: 40px !important;
   @include font_mix;
-  font-weight: 200;
+  font-weight: 200 !important;
   font-size: 30px !important;
   text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.7);
 }
 
-hr {
+.sec-title-hr {
   display: block;
   height: 2px;
   border: 0;
-  border-top: 1px solid black;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
   margin: 0 !important;
   padding: 0 !important;
-  margin-bottom: 10px !important;
+  margin-bottom: 30px !important;
+}
+
+.lead-container {
+  margin: 0px !important;
+  padding: 0px !important;
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+  margin-bottom: 60px !important;
 }
 
 .lead {
   @include font_mix;
-  font-weight: 200;
-  margin-top: 20px;
+  font-weight: 300 !important;
+  margin: 0px !important;
+  padding: 0px !important;
 }

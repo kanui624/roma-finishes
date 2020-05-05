@@ -3,14 +3,14 @@ import React from "react";
 class ServTitle extends React.Component {
   render() {
     return (
-      <div className="container padding mt-2">
+      <div className="container">
         <div className="row text-center services">
           <div className="col-12">
-            <h2 className="display-4 padding mb-4 sec-title">Services</h2>
-            <hr />
+            <h2 className="sec-title">Services</h2>
+            <hr className="sec-title-hr" />
           </div>
-          <div className="col-12">
-            <p className="container lead">
+          <div className="lead-container col-12">
+            <p className="lead">
               Having served Central Texas for over 20 years, Roma Finishes
               offers seasoned expertise for all of your surface cleaning,
               preparation, and protection needs. Browse our services to see how
