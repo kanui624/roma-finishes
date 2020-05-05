@@ -14,7 +14,7 @@ class Head extends React.Component {
               to="quote-target"
               spy={true}
               smooth={true}
-              offset={-100}
+              offset={-140}
               duration={1200}
             >
               Request a Quote
