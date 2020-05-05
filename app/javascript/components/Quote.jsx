@@ -17,18 +17,18 @@ const validationSchema = Yup.object().shape({
     .required("please enter a last name"),
 
   email: Yup.string()
-    .email("please enter a valid email")
+    .email("enter a valid email")
     .required("please enter an email"),
 
   number: Yup.string()
-    .matches(numberRegEx, "invalid phone number")
-    .max(13, "please enter a valid phone number")
-    .required("please enter a valid phone number"),
+    .matches(numberRegEx, "enter a valid phone number")
+    .max(13, "enter a valid phone number")
+    .required("please enter a phone number"),
 
   project_info: Yup.string()
-    .min(20, "project description must be at lest 20 characters")
+    .min(20, "20 characters min")
     .max(500, "must be less than 500 characters")
-    .required("Describe a bit about your project"),
+    .required("describe your project"),
 });
 
 class Quote extends React.Component {
@@ -159,22 +159,22 @@ class Quote extends React.Component {
                   onBlur={handleBlur}
                   value={values.name}
                 />
-                <p className="text-right" id="count"></p>
+                <div className="text-right" id="count" />
                 <Error
                   touched={touched.project_info}
                   message={errors.project_info}
                 />
-              </div>
-              <div className="text-center">
-                <button
-                  value="submit"
-                  type="submit"
-                  className="btn btn-secondary"
-                  id="contact-btn"
-                  disabled={isSubmitting}
-                >
-                  Submit
-                </button>
+                <div className="text-center">
+                  <button
+                    value="submit"
+                    type="submit"
+                    className="btn btn-secondary"
+                    id="contact-btn"
+                    disabled={isSubmitting}
+                  >
+                    Submit
+                  </button>
+                </div>
               </div>
             </form>
           )}

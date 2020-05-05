@@ -154,8 +154,14 @@ textarea {
   @include font_mix;
   color: red !important;
   font-size: 16px !important;
+  padding: 0 !important;
+  margin: 0 !important;
 }
 
+.invalid {
+  margin: 0 !important;
+  padding: 0 !important;
+}
 #contact-btn {
   @include font_mix;
   font-weight: 200 !important;
@@ -182,6 +188,8 @@ textarea {
   float: right;
   font-weight: 300 !important;
   font-size: 16px !important;
+  margin: 0 !important;
+  padding: 0 !important;
 }
 
 .quote-form {
@@ -191,4 +199,10 @@ textarea {
 
 .quote-deck {
   padding: 20px !important;
+}
+
+.overflow-m-b {
+  overflow: auto;
+  margin: 0 !important;
+  padding: 0 !important;
 }
