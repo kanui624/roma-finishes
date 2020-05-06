@@ -1,11 +1,24 @@
 //  Card Styling
+.section-two {
+  padding-bottom: 40px !important;
+}
+
+.serv-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  align-items: center;
+  column-gap: 20px;
+  row-gap: 20px;
+}
+
 .card {
   border: none !important;
 }
 
 .card-body {
   @include font_mix;
-  font-weight: 200;
+  font-weight: 300 !important;
   font-size: 18px;
   margin: 0 !important;
   padding: 10px !important;
@@ -14,7 +27,7 @@
 .card-title {
   @include font_mix;
   text-transform: uppercase;
-  font-weight: 200;
+  font-weight: 300;
   font-size: 17px;
   margin: 0 !important;
   margin-bottom: 10px !important;
@@ -27,7 +40,7 @@
 
 .card-text {
   @include font_mix;
-  font-weight: 200 !important;
+  font-weight: 300 !important;
   margin: 0 !important;
   padding: 0 !important;
 }

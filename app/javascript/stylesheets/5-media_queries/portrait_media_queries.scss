@@ -51,6 +51,9 @@
   }
 
   // SECTION TWO
+  .section-two {
+    padding-bottom: 20px !important;
+  }
 
   // SERVICES TITLE
   .sec-title {
@@ -72,6 +75,12 @@
   }
 
   // SERVICE CARDS
+
+  .serv-cards {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+  }
+
   .card-title {
     font-size: 15px !important;
   }
@@ -178,20 +187,37 @@
 
   // SECTION TWO
 
+  // SERVICES TITLE
   .sec-title {
     font-size: 21px !important;
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+  }
+
+  .sec-title-hr {
+    margin-bottom: 20px !important;
+  }
+
+  .lead-container {
+    margin-bottom: 20px !important;
   }
 
   .lead {
-    font-size: 15px !important;
+    font-size: 13.5px !important;
+  }
+
+  // SERVICE CARDS
+  .serv-cards {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(6, 1fr);
   }
 
   .card-title {
-    font-size: 17px !important;
+    font-size: 15px !important;
   }
 
   .card-text {
-    font-size: 16px !important;
+    font-size: 14px !important;
   }
 
   // SEMI BREAK
@@ -228,7 +254,7 @@
 
   // NAVBAR
   #wht_nav_logo {
-    height: 85px;
+    height: 75px;
     margin-left: 15px;
   }
 
@@ -247,7 +273,7 @@
 
   // HEADER
   .roma-hero {
-    top: 50%;
+    top: 46%;
   }
 
   h1 {
@@ -259,6 +285,47 @@
   .quote {
     font-size: 18px !important;
     padding: 8px 22px !important;
+  }
+
+  // SECTION TWO
+
+  // SERVICES TITLE
+  .sec-title {
+    font-size: 21px !important;
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+  }
+
+  .sec-title-hr {
+    margin-bottom: 20px !important;
+  }
+
+  .lead-container {
+    margin-bottom: 20px !important;
+  }
+
+  .lead {
+    font-size: 15px !important;
+  }
+
+  // SERVICE CARDS
+  .serv-cards {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+  }
+
+  .card-title {
+    font-size: 15px !important;
+  }
+
+  .card-text {
+    font-size: 14px !important;
+  }
+
+  // SECTION THREE - GALLERY
+  .column-gal {
+    flex: 50%;
+    max-width: 50%;
   }
 }
 
@@ -314,12 +381,37 @@
 
   // SECTION TWO
 
+  // SERVICES TITLE
+  .sec-title {
+    font-size: 21px !important;
+    margin-top: 25px !important;
+    margin-bottom: 25px !important;
+  }
+
+  .sec-title-hr {
+    margin-bottom: 25px !important;
+  }
+
+  .lead-container {
+    margin-bottom: 25px !important;
+  }
+
+  .lead {
+    font-size: 16px !important;
+  }
+
+  // SERVICE CARDS
   .card-title {
     font-size: 16px !important;
   }
 
   .card-text {
-    font-size: 14px !important;
+    font-size: 15px !important;
+  }
+
+  .serv-cards {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
   }
 
   // SEMI BREAK
@@ -365,12 +457,54 @@
 
   // NAVBAR
   #wht_nav_logo {
-    height: 110px;
+    height: 100px;
     margin-left: 15px;
   }
 
   .react-link {
     font-size: 110%;
+  }
+
+  // SECTION TWO
+
+  // SERVICES TITLE
+  .sec-title {
+    font-size: 130% !important;
+    font-weight: 300 !important;
+    margin-top: 25px !important;
+    margin-bottom: 25px !important;
+  }
+
+  .sec-title-hr {
+    margin-bottom: 25px !important;
+  }
+
+  .lead-container {
+    margin-bottom: 25px !important;
+  }
+
+  .lead {
+    font-size: 18px !important;
+  }
+
+  // SERVICE CARDS
+  .card-title {
+    font-size: 19px !important;
+  }
+
+  .card-text {
+    font-size: 17px !important;
+  }
+
+  .serv-cards {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+  }
+
+  // SECTION THREE - GALLERY
+  .column-gal {
+    flex: 50%;
+    max-width: 50%;
   }
 
   // SEMI BREAK
