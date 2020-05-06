@@ -1,5 +1,5 @@
 import React from "react";
-import full_roma from "../images/logo/full_roma.png";
+import w_roma from "../images/logo/w_roma.png";
 
 class QLogo extends React.Component {
   render() {
@@ -11,7 +11,7 @@ class QLogo extends React.Component {
           </div>
           <div>
             <img
-              src={require("../images/logo/full_roma.png")}
+              src={require("../images/logo/w_roma.png")}
               alt="roma logo"
               id="g-logo-quote-box"
             />

@@ -1,8 +1,8 @@
 class Api::V1::QuotesController < ApplicationController
-  # def index
-  #   quote = Quote.all.order(created_at: :desc)
-  #   render json: quotes
-  # end
+  def index
+    quotes = Quote.order(id: :asc)
+    render json: { quotes: quotes }
+  end
 
   def create
     @quote = Quote.new(quote_params)
@@ -13,13 +13,10 @@ class Api::V1::QuotesController < ApplicationController
     end
   end
 
-  # def show
-  #   if quote
-  #     render json: quote
-  #   else 
-  #     render json: quote.errors
-  #   end
-  # end
+  def show
+    quote = Quote.last
+    render json: quote
+  end
 
   # def update 
   #   quote = Quote.find(params[:id])
