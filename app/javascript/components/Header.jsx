@@ -17,7 +17,7 @@ class Head extends React.Component {
               offset={-140}
               duration={1200}
             >
-              Request a Quote
+              Get a Quote!
             </Link>
           </div>
           <div className="mobile-link">
@@ -30,7 +30,7 @@ class Head extends React.Component {
               offset={-110}
               duration={1200}
             >
-              Request a Quote
+              Get a Quote!
             </Link>
           </div>
         </div>

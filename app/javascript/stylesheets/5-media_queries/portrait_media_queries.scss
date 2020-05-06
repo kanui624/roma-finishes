@@ -7,6 +7,15 @@
       url("../images/tank/tank_sm_phone.png");
   }
 
+  // ALTERNATE LINKS BASED ON DISPLAY
+  .desktop-link {
+    display: none;
+  }
+
+  .mobile-link {
+    display: block;
+  }
+
   // NAVBAR
   #wht_nav_logo {
     height: 70px;
@@ -18,11 +27,10 @@
   }
 
   .navbar-nav .nav-link {
-    padding-right: 15px !important;
+    padding-right: 17px !important;
   }
 
   .react-link {
-    @include react_link_mix;
     font-size: 85%;
   }
 
@@ -34,21 +42,12 @@
   h1 {
     font-size: 100% !important;
     letter-spacing: 1px;
-    margin-bottom: 13px !important;
+    margin-bottom: 12px !important;
   }
 
   .quote {
     font-size: 90% !important;
     padding: 5px 15px !important;
-  }
-
-  // ALTERNATE LINKS BASED ON DISPLAY
-  .desktop-link {
-    display: none;
-  }
-
-  .mobile-link {
-    display: block;
   }
 
   // SECTION TWO
@@ -124,44 +123,57 @@
 
 @media (min-width: 375px) and (max-width: 575.98px) and (orientation: portrait) {
   // SECTION ONE
+
+  // BG
   #tank_blast {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
       url("../images/tank/tank_phone.png");
+    background-position: 50% 65%;
   }
 
-  #wht_nav_logo {
-    height: 70px;
-    margin-left: 15px;
-  }
-
-  .react-link {
-    @include react_link_mix;
-    font-size: 95%;
-    margin-right: 15px;
-  }
-
-  .roma-hero {
-    margin-left: 12px !important;
-    top: 55%;
-  }
-
-  h1 {
-    font-size: 16px !important;
-    letter-spacing: 1px;
-    margin-bottom: 15px !important;
-  }
-
-  .quote {
-    font-size: 90% !important;
-    padding: 8px 20px !important;
-  }
-
+  // ALTERNATE LINKS BASED ON DISPLAY
   .desktop-link {
     display: none;
   }
 
   .mobile-link {
     display: block;
+  }
+
+  // NAVBAR
+  #wht_nav_logo {
+    height: 75px;
+    margin-left: 15px;
+  }
+
+  .navbar-toggler {
+    font-size: 22px !important;
+    padding: 15px !important;
+  }
+
+  .navbar-nav .nav-link {
+    padding-right: 17px !important;
+  }
+
+  .react-link {
+    font-size: 90%;
+  }
+
+  // HEADER
+  .roma-hero {
+    margin: 0 !important;
+    top: 48%;
+  }
+
+  h1 {
+    font-size: 19px !important;
+    letter-spacing: 1px;
+    margin-bottom: 13px !important;
+  }
+
+  .quote {
+    font-size: 90% !important;
+    padding: 7px 18px !important;
   }
 
   // SECTION TWO
@@ -199,62 +211,105 @@
 
 @media (min-width: 576px) and (max-width: 767.98px) and (orientation: portrait) {
   // SECTION ONE
-  #wht_nav_logo {
-    height: 80px;
-    margin-left: 15px;
-  }
-
-  h1 {
-    font-size: 27px !important;
-    letter-spacing: 1px;
-    margin-bottom: 15px !important;
-  }
-
   .desktop-link {
     display: none;
   }
 
   .mobile-link {
     display: block;
+  }
+
+  // BG
+  #tank_blast {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
+      url("../images/tank/tank_phone.png");
+    background-position: 40% 55%;
+  }
+
+  // NAVBAR
+  #wht_nav_logo {
+    height: 85px;
+    margin-left: 15px;
+  }
+
+  .navbar-toggler {
+    font-size: 22px !important;
+    padding: 15px !important;
+  }
+
+  .navbar-nav .nav-link {
+    padding-right: 17px !important;
+  }
+
+  .react-link {
+    font-size: 110%;
+  }
+
+  // HEADER
+  .roma-hero {
+    top: 50%;
+  }
+
+  h1 {
+    font-size: 25px !important;
+    letter-spacing: 1px;
+    margin-bottom: 15px !important;
+  }
+
+  .quote {
+    font-size: 18px !important;
+    padding: 8px 22px !important;
   }
 }
 
 @media (min-width: 768px) and (max-width: 1023px) and (orientation: portrait) {
   // SECTION ONE
 
+  // BG
   #tank_blast {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
       url("../images/tank/tank_ipad.png");
   }
 
-  .react-link {
-    @include react_link_mix;
-    font-size: 110%;
-    margin-right: 15px;
-  }
-
-  .roma-hero {
-    margin-left: 12px !important;
-    top: 55%;
-  }
-
-  h1 {
-    font-size: 30px !important;
-    letter-spacing: 1px;
-    margin-bottom: 13px !important;
-  }
-
-  .quote {
-    font-size: 110% !important;
-    padding: 10px 25px !important;
-  }
-
+  // ALTERNATE LINKS BASED ON DISPLAY
   .desktop-link {
     display: block;
   }
 
   .mobile-link {
     display: none;
+  }
+
+  // NAVBAR
+  #wht_nav_logo {
+    height: 100px;
+    margin-left: 15px;
+  }
+
+  .navbar-toggler {
+    font-size: 23px !important;
+    padding: 15px !important;
+  }
+
+  .navbar-nav .nav-link {
+    padding-right: 17px !important;
+  }
+
+  .react-link {
+    font-size: 110%;
+  }
+
+  // HEADER
+
+  h1 {
+    font-size: 30px !important;
+    letter-spacing: 1.5px;
+    margin-bottom: 15px !important;
+  }
+
+  .quote {
+    font-size: 110% !important;
+    padding: 10px 25px !important;
   }
 
   // SECTION TWO
@@ -293,39 +348,29 @@
 @media (min-width: 1024px) and (orientation: portrait) {
   // SECTION ONE
 
+  // BG
   #tank_blast {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
       url("../images/tank/tank_ipad.png");
   }
 
-  .react-link {
-    @include react_link_mix;
-    font-size: 110%;
-    margin-right: 15px;
-  }
-
-  .roma-hero {
-    margin-left: 12px !important;
-    top: 55%;
-  }
-
-  h1 {
-    font-size: 35px !important;
-    letter-spacing: 1px;
-    margin-bottom: 13px !important;
-  }
-
-  .quote {
-    font-size: 110% !important;
-    padding: 10px 25px !important;
-  }
-
+  // ALTERNATE LINKS BASED ON DISPLAY
   .desktop-link {
     display: block;
   }
 
   .mobile-link {
     display: none;
+  }
+
+  // NAVBAR
+  #wht_nav_logo {
+    height: 110px;
+    margin-left: 15px;
+  }
+
+  .react-link {
+    font-size: 110%;
   }
 
   // SEMI BREAK
