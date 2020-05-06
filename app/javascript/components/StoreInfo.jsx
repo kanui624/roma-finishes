@@ -17,7 +17,7 @@ class StoreInfo extends React.Component {
               </div>
             </div>
           </div>
-          <div className="col-md-4">
+          <div className="col-md-4 hours-padding">
             <div className="card text-center">
               <h4 className="contact-info-titles">Hours</h4>
               <div className="container">

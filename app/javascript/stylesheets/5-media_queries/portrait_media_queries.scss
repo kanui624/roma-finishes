@@ -104,25 +104,27 @@
     margin-bottom: 10px !important;
   }
 
-  .form-message {
-    font-size: 14px !important;
-  }
-
-  #count {
-    font-size: 13px !important;
-  }
-
   #contact-h6 {
-    font-size: 18px !important;
+    font-size: 16px !important;
+  }
+
+  #g-logo-quote-box,
+  #g-logo-quote-box-sub {
+    height: 135px;
+    width: 135px;
+    margin: 0 !important;
   }
 
   .below-q-logo-margin {
     padding-bottom: 20px !important;
   }
 
-  #g-logo-quote-box {
-    height: 140px;
-    width: 140px;
+  .form-message {
+    font-size: 14px !important;
+  }
+
+  #count {
+    font-size: 14px !important;
   }
 
   .quote-deck {
@@ -151,7 +153,7 @@
 
   // NAVBAR
   #wht_nav_logo {
-    height: 75px;
+    height: 70px;
     margin-left: 15px;
   }
 
@@ -230,8 +232,36 @@
   }
 
   // SECTION FOUR - CONTACT/QUOTE
-  #logo-comment-mg {
-    margin-top: 5px !important;
+
+  .info-sec {
+    margin-bottom: 10px !important;
+  }
+
+  #contact-h6 {
+    font-size: 18px !important;
+  }
+
+  #g-logo-quote-box,
+  #g-logo-quote-box-sub {
+    height: 145px;
+    width: 145px;
+    margin: 0 !important;
+  }
+
+  .below-q-logo-margin {
+    padding-bottom: 20px !important;
+  }
+
+  .form-message {
+    font-size: 14px !important;
+  }
+
+  #count {
+    font-size: 14px !important;
+  }
+
+  .quote-deck {
+    padding-top: 20px !important;
   }
 }
 
@@ -327,6 +357,39 @@
     flex: 50%;
     max-width: 50%;
   }
+
+  // SECTION FOUR - CONTACT/QUOTE
+
+  .info-sec {
+    margin-bottom: 20px !important;
+  }
+
+  #contact-h6 {
+    font-size: 19px !important;
+  }
+
+  #g-logo-quote-box,
+  #g-logo-quote-box-sub {
+    height: 150px;
+    width: 150px;
+    margin: 0 !important;
+  }
+
+  .below-q-logo-margin {
+    padding-bottom: 20px !important;
+  }
+
+  .form-message {
+    font-size: 15px !important;
+  }
+
+  #count {
+    font-size: 15px !important;
+  }
+
+  .quote-deck {
+    padding-top: 20px !important;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 1023px) and (orientation: portrait) {
@@ -354,7 +417,7 @@
   }
 
   .navbar-toggler {
-    font-size: 23px !important;
+    font-size: 25px !important;
     padding: 15px !important;
   }
 
@@ -363,7 +426,7 @@
   }
 
   .react-link {
-    font-size: 110%;
+    font-size: 100%;
   }
 
   // HEADER
@@ -424,16 +487,28 @@
   }
 
   // SECTION FOUR - CONTACT/QUOTE
-  #logo-comment-mg {
-    margin-top: 25px !important;
+
+  .info-sec {
+    margin-bottom: 20px !important;
   }
 
-  #contact-h5 {
-    font-size: 14px !important;
+  #g-logo-quote-box,
+  #g-logo-quote-box-sub {
+    height: 160px;
+    width: 160px;
+    margin: 0 !important;
   }
 
-  #contact-h6 {
-    font-size: 17.5px !important;
+  .hours-padding {
+    padding: 0 !important;
+  }
+
+  .form-message {
+    font-size: 15px !important;
+  }
+
+  #count {
+    font-size: 15px !important;
   }
 }
 
@@ -517,7 +592,28 @@
   }
 
   // SECTION FOUR - CONTACT/QUOTE
-  #logo-comment-mg {
-    margin-top: 27px !important;
+  // SECTION FOUR - CONTACT/QUOTE
+
+  .info-sec {
+    margin-bottom: 20px !important;
+  }
+
+  .contact-info {
+    font-size: 17px !important;
+  }
+
+  #g-logo-quote-box,
+  #g-logo-quote-box-sub {
+    height: 180px;
+    width: 180px;
+    margin: 0 !important;
+  }
+
+  .form-message {
+    font-size: 16px !important;
+  }
+
+  #count {
+    font-size: 16px !important;
   }
 }
