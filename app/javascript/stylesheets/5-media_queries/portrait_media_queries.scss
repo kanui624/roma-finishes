@@ -166,6 +166,13 @@
   .faq-answer {
     font-size: 16px;
   }
+
+  // SECTION SIX - FOOTER
+  .footer-ul {
+    font-size: 9px !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+  }
 }
 
 @media (min-width: 375px) and (max-width: 575.98px) and (orientation: portrait) {
@@ -335,6 +342,12 @@
   .faq-answer {
     font-size: 16px;
   }
+  // SECTION SIX - FOOTER
+  .footer-ul {
+    font-size: 10px !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+  }
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) and (orientation: portrait) {
@@ -477,6 +490,13 @@
     grid-row-end: 2;
     margin: auto;
   }
+
+  // SECTION SIX - FOOTER
+  .footer-ul {
+    font-size: 11px !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 1023px) and (orientation: portrait) {
@@ -612,6 +632,14 @@
     grid-row-end: 2;
     margin: auto;
   }
+
+  // SECTION SIX - FOOTER
+  .footer-ul {
+    font-size: 12px !important;
+    margin: auto;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+  }
 }
 
 @media (min-width: 1024px) and (orientation: portrait) {
@@ -731,5 +759,13 @@
     grid-row-start: 1;
     grid-row-end: 2;
     margin: auto;
+  }
+
+  // SECTION SIX - FOOTER
+  .footer-ul {
+    font-size: 13px !important;
+    margin: auto;
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
   }
 }

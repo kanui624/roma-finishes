@@ -11,7 +11,8 @@ class FaqTitle extends React.Component {
           </div>
           <div className="col-12">
             <p className="container lead">
-              This section is not functional yet!
+              If you can't find the right answer to your question below, give us
+              a call!
             </p>
           </div>
         </div>

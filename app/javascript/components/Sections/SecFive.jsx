@@ -5,7 +5,7 @@ import Faq from "../Faq";
 class SecFive extends React.Component {
   render() {
     return (
-      <div className="container-fluid">
+      <div className="container-fluid sec-five">
         <FaqTitle />
         <Faq />
       </div>

@@ -1,0 +1,61 @@
+#footer {
+  background-color: black !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.cont-footer {
+}
+
+.footer-ul {
+  @include font_mix;
+  color: white;
+  font-size: 15px !important;
+  font-weight: 300 !important;
+  text-transform: uppercase;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  margin: 0 !important;
+  padding: 0 !important;
+  padding-top: 30px !important;
+  padding-bottom: 30px !important;
+}
+
+.footer-li {
+  padding: 0 !important;
+}
+
+.copy-rights {
+  grid-column-start: 4;
+  grid-column-end: 8;
+  text-align: center;
+}
+
+.social-li-insta {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  margin: auto;
+  text-align: left;
+}
+
+.social-li-fb {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  margin: auto;
+  text-align: left;
+}
+
+.social-li-linked {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  margin: auto;
+  text-align: left;
+}
+
+// .serv-cont {
+//   grid-column-start: 3;
+//   grid-column-end: 4;
+// }
+// .serv-faq {
+//   grid-column-start: 4;
+//   grid-column-end: 5;
+// }

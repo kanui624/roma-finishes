@@ -248,6 +248,34 @@ class Faq extends React.Component {
           </button>
           <div
             className="container faq-answer collapse text-center"
+            id="coll10"
+          >
+            <hr className="answer-hr" />
+            <p>
+              Yes, we utilize various washing methods for safe vehicle paint
+              removal leaving the base surface intact.
+            </p>
+          </div>
+        </div>
+
+        <div className="faq-1 card">
+          <button className="faq" data-toggle="collapse" data-target="#coll11">
+            <div className="q-and-img-row">
+              <div className="question">
+                Is power washing safe for vehicle paint?
+              </div>
+              <div className="question-img text-center">
+                <img
+                  id="faq-img-button"
+                  className="faq-img-button"
+                  src={require("../images/logo/spin.png")}
+                  alt="roma btn"
+                />
+              </div>
+            </div>
+          </button>
+          <div
+            className="container faq-answer collapse text-center"
             id="coll11"
           >
             <hr className="answer-hr" />
@@ -260,6 +288,34 @@ class Faq extends React.Component {
 
         <div className="faq-1 card">
           <button className="faq" data-toggle="collapse" data-target="#coll12">
+            <div className="q-and-img-row">
+              <div className="question">
+                Is power washing safe for vehicle paint?
+              </div>
+              <div className="question-img text-center">
+                <img
+                  id="faq-img-button"
+                  className="faq-img-button"
+                  src={require("../images/logo/spin.png")}
+                  alt="roma btn"
+                />
+              </div>
+            </div>
+          </button>
+          <div
+            className="container faq-answer collapse text-center"
+            id="coll12"
+          >
+            <hr className="answer-hr" />
+            <p>
+              Yes, we utilize various washing methods for safe vehicle paint
+              removal leaving the base surface intact.
+            </p>
+          </div>
+        </div>
+
+        <div className="faq-1 card">
+          <button className="faq" data-toggle="collapse" data-target="#coll13">
             <div className="q-and-img-row">
               <div className="question">
                 Is power washing safe for vehicle paint?
