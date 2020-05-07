@@ -7,9 +7,7 @@ class SecFive extends React.Component {
     return (
       <div className="container-fluid">
         <FaqTitle />
-        <div className="container">
-          <Faq />
-        </div>
+        <Faq />
       </div>
     );
   }

@@ -39,5 +39,3 @@ class Submitted extends React.Component {
 }
 
 export default Submitted;
-
-// this.setState({ lastQuoteName: res.data.quote })
