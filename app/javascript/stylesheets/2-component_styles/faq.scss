@@ -5,6 +5,7 @@
 
 .faq-1:hover {
   box-shadow: 4px 4px 8px 5px rgba(179, 179, 179, 0.336) !important;
+  background-color: white !important;
 }
 
 .faq {
@@ -63,4 +64,12 @@
 
 .answer-hr {
   margin-top: 0 !important;
+}
+
+.last-faq {
+  padding-bottom: 100px !important;
+}
+
+button {
+  background-color: white !important;
 }

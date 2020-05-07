@@ -8,9 +8,7 @@ class Faq extends React.Component {
         <div className="faq-1 card">
           <button className="faq" data-toggle="collapse" data-target="#coll1">
             <div className="q-and-img-row">
-              <div className="question">
-                Is power washing safe for vehicle paint?
-              </div>
+              <div className="question">Can you remove Vehicle Paint?</div>
               <div className="question-img text-center">
                 <img
                   id="faq-img-button"
@@ -24,8 +22,8 @@ class Faq extends React.Component {
           <div className="container faq-answer collapse text-center" id="coll1">
             <hr className="answer-hr" />
             <p>
-              Yes, we utilize various washing methods for safe vehicle paint
-              removal leaving the base surface intact.
+              Yes! Roma Finishes utilizes various washing methods for safe
+              vehicle paint removal leaving the base surface intact.
             </p>
           </div>
         </div>
@@ -509,32 +507,37 @@ class Faq extends React.Component {
             </p>
           </div>
         </div>
-
-        <div className="faq-1 card">
-          <button className="faq" data-toggle="collapse" data-target="#coll20">
-            <div className="q-and-img-row">
-              <div className="question">
-                Is power washing safe for vehicle paint?
+        <div className="last-faq">
+          <div className="faq-1 card ">
+            <button
+              className="faq"
+              data-toggle="collapse"
+              data-target="#coll20"
+            >
+              <div className="q-and-img-row">
+                <div className="question">
+                  Is power washing safe for vehicle paint?
+                </div>
+                <div className="question-img text-center">
+                  <img
+                    id="faq-img-button"
+                    className="faq-img-button"
+                    src={require("../images/logo/spin.png")}
+                    alt="roma btn"
+                  />
+                </div>
               </div>
-              <div className="question-img text-center">
-                <img
-                  id="faq-img-button"
-                  className="faq-img-button"
-                  src={require("../images/logo/spin.png")}
-                  alt="roma btn"
-                />
-              </div>
+            </button>
+            <div
+              className="container faq-answer collapse text-center"
+              id="coll20"
+            >
+              <hr className="answer-hr" />
+              <p>
+                Yes, we utilize various washing methods for safe vehicle paint
+                removal leaving the base surface intact.
+              </p>
             </div>
-          </button>
-          <div
-            className="container faq-answer collapse text-center"
-            id="coll20"
-          >
-            <hr className="answer-hr" />
-            <p>
-              Yes, we utilize various washing methods for safe vehicle paint
-              removal leaving the base surface intact.
-            </p>
           </div>
         </div>
       </div>

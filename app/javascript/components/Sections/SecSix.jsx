@@ -13,7 +13,7 @@ class SecSix extends React.Component {
               <InstagramIcon className="social-li-insta" />
               <FacebookIcon className="social-li-fb" />
               <LinkedInIcon className="social-li-linked" />
-              <li className="footer-li copy-rights">
+              <li className="footer-li copy-rights ml-auto">
                 <>Copyright © 2020 </>
                 <>Roma Blasting </>
                 <> - All Rights Reserved</>
