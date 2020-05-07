@@ -4,7 +4,7 @@ class GalTitle extends React.Component {
   render() {
     return (
       <div className="container">
-        <div className="row text-center">
+        <div className="row text-center services">
           <div className="col-12">
             <h2 className="sec-title">Gallery</h2>
             <hr className="sec-title-hr" />
