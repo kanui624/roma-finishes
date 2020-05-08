@@ -1,25 +1,39 @@
 @media (max-width: 666px) and (orientation: landscape) {
   // SECTION ONE
+  .desktop-link {
+    display: none;
+  }
+
+  .mobile-link {
+    display: block;
+  }
+  // NAVBAR
   #wht_nav_logo {
     height: 70px;
     margin-left: 15px;
   }
 
-  .react-link {
-    @include react_link_mix;
-    font-size: 90%;
-    margin-right: 15px;
+  .navbar-toggler {
+    font-size: 22px !important;
+    padding: 15px !important;
   }
 
+  .navbar-nav .nav-link {
+    padding-right: 15px !important;
+  }
+
+  .react-link {
+    font-size: 90%;
+  }
+  // HEADER
   .roma-hero {
-    margin-left: 12px !important;
-    top: 67%;
+    margin-left: 0 !important;
+    top: 60%;
   }
 
   h1 {
-    font-size: 18px !important;
-    letter-spacing: 1px;
-    margin-bottom: 15px !important;
+    font-size: 20px !important;
+    margin-bottom: 10px !important;
   }
 
   .quote {
@@ -28,28 +42,40 @@
   }
 
   //  SECTION TWO
+  .section-two {
+    padding-bottom: 20px !important;
+  }
+
   .sec-title {
     font-size: 21px !important;
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+  }
+
+  .sec-title-hr {
+    margin-bottom: 20px !important;
+  }
+
+  .lead-container {
+    margin-bottom: 20px !important;
   }
 
   .lead {
     font-size: 16px !important;
   }
 
-  .card-title {
-    font-size: 18px !important;
+  // SERVICE CARDS
+  .serv-cards {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
   }
 
-  .card-text {
+  .card-title {
     font-size: 16px !important;
   }
 
-  .desktop-link {
-    display: none;
-  }
-
-  .mobile-link {
-    display: block;
+  .card-text {
+    font-size: 15px !important;
   }
 
   // SEMI BREAK
@@ -58,29 +84,103 @@
     height: 65vh;
   }
 
+  // SECTION THREE - GALLERY
+  .column-gal {
+    flex: 50%;
+    max-width: 50%;
+  }
+
   // SECTION FOUR - CONTACT/QUOTE
-  #logo-comment-mg {
-    margin-top: 5px !important;
+  .info-sec {
+    margin-bottom: 20px !important;
+  }
+
+  .text-center {
+    margin-bottom: 0 !important ;
+  }
+
+  .contact-title {
+    margin-bottom: 15px !important;
+  }
+  // QUOTE FORM
+  #g-logo-quote-box,
+  #g-logo-quote-box-sub {
+    height: 150px;
+    width: 150px;
+    margin: 0 !important;
+  }
+
+  .below-q-logo-margin {
+    padding-bottom: 20px !important;
+  }
+
+  // SECTION FIVE
+  .question {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    font-size: 18px !important;
+  }
+
+  .faq-answer {
+    font-size: 18px !important;
+  }
+
+  .question-img {
+    grid-column-start: 11;
+    grid-column-end: 13;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    margin: auto;
+  }
+
+  .last-faq {
+    padding-bottom: 50px !important;
+  }
+
+  // SECTION SIX - FOOTER
+  .footer-ul {
+    font-size: 9px !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+  }
+
+  .copy-rights {
+    margin: auto;
   }
 }
 
 @media (min-width: 667px) and (max-width: 735px) and (orientation: landscape) {
   // SECTION ONE
+  .desktop-link {
+    display: none;
+  }
 
+  .mobile-link {
+    display: block;
+  }
+  // NAVBAR
   #wht_nav_logo {
     height: 75px;
-    margin-left: 15px;
+    margin-left: 5px;
+  }
+
+  .navbar-toggler {
+    font-size: 22px !important;
+    padding: 15px !important;
+  }
+
+  .navbar-nav .nav-link {
+    padding-right: 15px !important;
   }
 
   .react-link {
-    @include react_link_mix;
     font-size: 90%;
-    margin-right: 15px;
   }
 
+  // HEADER
   .roma-hero {
-    margin-left: 12px !important;
-    top: 65%;
+    margin-left: 0 !important;
+    top: 53%;
   }
 
   h1 {
@@ -94,61 +194,129 @@
     padding: 7px 17px !important;
   }
 
-  .desktop-link {
-    display: none;
-  }
-
-  .mobile-link {
-    display: block;
-  }
-
   // SECTION TWO
+  .section-two {
+    padding-bottom: 20px !important;
+  }
 
   .sec-title {
     font-size: 21px !important;
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+  }
+
+  .sec-title-hr {
+    margin-bottom: 20px !important;
+  }
+
+  .lead-container {
+    margin-bottom: 20px !important;
   }
 
   .lead {
-    font-size: 16px !important;
+    font-size: 15.5px !important;
+  }
+
+  // SERVICE CARDS
+  .serv-cards {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
   }
 
   .card-title {
-    font-size: 18px !important;
+    font-size: 15.5px !important;
   }
 
   .card-text {
-    font-size: 16px !important;
+    font-size: 15.5px !important;
   }
 
   // SEMI BREAK
   #semi-break {
-    background-position: 50% 63%;
+    background-position: 50% 65%;
     height: 65vh;
   }
 
   // SECTION FOUR - CONTACT/QUOTE
-  #logo-comment-mg {
-    margin-top: 5px !important;
+  // QUOTE FORM
+  #g-logo-quote-box,
+  #g-logo-quote-box-sub {
+    height: 150px;
+    width: 150px;
+    margin: 0 !important;
+  }
+
+  .below-q-logo-margin {
+    padding-bottom: 20px !important;
+  }
+
+  // SECTION FIVE
+  .question {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    font-size: 18px !important;
+  }
+
+  .faq-answer {
+    font-size: 18px !important;
+  }
+
+  .question-img {
+    grid-column-start: 11;
+    grid-column-end: 13;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    margin: auto;
+  }
+
+  .last-faq {
+    padding-bottom: 50px !important;
+  }
+
+  // SECTION SIX - FOOTER
+  .footer-ul {
+    font-size: 9px !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+  }
+
+  .copy-rights {
+    margin: auto;
   }
 }
 
 @media (min-width: 736px) and (max-width: 811px) and (orientation: landscape) {
   // SECTION ONE
+  .desktop-link {
+    display: none;
+  }
 
+  .mobile-link {
+    display: block;
+  }
+  // NAVBAR
   #wht_nav_logo {
     height: 75px;
-    margin-left: 15px;
+    margin-left: 5px;
+  }
+
+  .navbar-toggler {
+    font-size: 22px !important;
+    padding: 15px !important;
+  }
+
+  .navbar-nav .nav-link {
+    padding-right: 15px !important;
   }
 
   .react-link {
-    @include react_link_mix;
-    font-size: 95%;
-    margin-right: 15px;
+    font-size: 100%;
   }
 
+  // HEADER
   .roma-hero {
-    margin-left: 12px !important;
-    top: 65%;
+    margin-left: 0 !important;
+    top: 51%;
   }
 
   h1 {
@@ -162,29 +330,41 @@
     padding: 7px 17px !important;
   }
 
-  .desktop-link {
-    display: none;
-  }
-
-  .mobile-link {
-    display: block;
-  }
   // SECTION TWO
+  .section-two {
+    padding-bottom: 20px !important;
+  }
 
   .sec-title {
     font-size: 21px !important;
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+  }
+
+  .sec-title-hr {
+    margin-bottom: 20px !important;
+  }
+
+  .lead-container {
+    margin-bottom: 20px !important;
   }
 
   .lead {
-    font-size: 18px !important;
+    font-size: 15.5px !important;
+  }
+
+  // SERVICE CARDS
+  .serv-cards {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
   }
 
   .card-title {
-    font-size: 18px !important;
+    font-size: 15.5px !important;
   }
 
   .card-text {
-    font-size: 18px !important;
+    font-size: 15.5px !important;
   }
 
   // SEMI BREAK
@@ -194,41 +374,55 @@
   }
 
   // SECTION FOUR - CONTACT/QUOTE
-  #logo-comment-mg {
-    margin-top: 5px !important;
+  // QUOTE FORM
+  #g-logo-quote-box,
+  #g-logo-quote-box-sub {
+    height: 150px;
+    width: 150px;
+    margin: 0 !important;
+  }
+
+  .below-q-logo-margin {
+    padding-bottom: 20px !important;
+  }
+
+  // SECTION FIVE
+  .question {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    font-size: 18px !important;
+  }
+
+  .faq-answer {
+    font-size: 18px !important;
+  }
+
+  .question-img {
+    grid-column-start: 11;
+    grid-column-end: 13;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    margin: auto;
+  }
+
+  .last-faq {
+    padding-bottom: 50px !important;
+  }
+
+  // SECTION SIX - FOOTER
+  .footer-ul {
+    font-size: 9.5px !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+  }
+
+  .copy-rights {
+    margin: auto;
   }
 }
 
 @media (min-width: 812px) and (max-width: 1023px) and (orientation: landscape) {
   // SECTION ONE
-
-  #wht_nav_logo {
-    height: 71px;
-    margin-left: 15px;
-  }
-
-  .react-link {
-    @include react_link_mix;
-    font-size: 95%;
-    margin-right: 15px;
-  }
-
-  .roma-hero {
-    margin-left: 12px !important;
-    top: 65%;
-  }
-
-  h1 {
-    font-size: 20px !important;
-    letter-spacing: 1px;
-    margin-bottom: 15px !important;
-  }
-
-  .quote {
-    font-size: 100% !important;
-    padding: 7px 17px !important;
-  }
-
   .desktop-link {
     display: none;
   }
@@ -237,22 +431,76 @@
     display: block;
   }
 
+  // NAVBAR
+  #wht_nav_logo {
+    height: 75px;
+    margin-left: 5px;
+  }
+
+  .navbar-toggler {
+    font-size: 22px !important;
+    padding: 15px !important;
+  }
+
+  .navbar-nav .nav-link {
+    padding-right: 15px !important;
+  }
+
+  .react-link {
+    font-size: 90%;
+  }
+
+  // HEADER
+  .roma-hero {
+    margin-left: 0 !important;
+    top: 53%;
+  }
+
+  h1 {
+    font-size: 21px !important;
+    margin-bottom: 13px !important;
+  }
+
+  .quote {
+    font-size: 100% !important;
+    padding: 7px 17px !important;
+  }
+
   // SECTION TWO
+  .section-two {
+    padding-bottom: 20px !important;
+  }
 
   .sec-title {
     font-size: 21px !important;
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+  }
+
+  .sec-title-hr {
+    margin-bottom: 20px !important;
+  }
+
+  .lead-container {
+    margin-bottom: 20px !important;
   }
 
   .lead {
-    font-size: 18px !important;
+    font-size: 15.5px !important;
+  }
+
+  // SERVICE CARDS
+  .serv-cards {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
   }
 
   .card-title {
-    font-size: 15px !important;
+    font-size: 15.5px !important;
   }
 
   .card-text {
-    font-size: 12.5px !important;
+    font-size: 15.5px !important;
   }
 
   // SEMI BREAK
@@ -262,23 +510,62 @@
   }
 
   // SECTION FOUR - CONTACT/QUOTE
-  #logo-comment-mg {
-    margin-top: 25px !important;
+  // INFO SECTION
+  .hours-padding {
+    padding: 0 !important;
   }
 
-  #contact-h6 {
-    font-size: 17px !important;
+  // QUOTE FORM
+  #g-logo-quote-box,
+  #g-logo-quote-box-sub {
+    height: 150px;
+    width: 150px;
+    margin: 0 !important;
   }
 
-  #contact-h5 {
-    font-size: 13px !important;
+  .below-q-logo-margin {
+    padding-bottom: 20px !important;
+  }
+
+  // SECTION FIVE
+  .question {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    font-size: 18px !important;
+  }
+
+  .faq-answer {
+    font-size: 18px !important;
+  }
+
+  .question-img {
+    grid-column-start: 11;
+    grid-column-end: 13;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    margin: auto;
+  }
+
+  .last-faq {
+    padding-bottom: 50px !important;
+  }
+
+  // SECTION SIX - FOOTER
+  .footer-ul {
+    font-size: 12px !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+  }
+
+  .copy-rights {
+    margin: auto;
   }
 }
 
 @media (min-width: 1024px) and (max-width: 1366px) and (orientation: landscape) {
   // SECTION ONE
   #wht_nav_logo {
-    height: 95px;
+    height: 100px;
     margin-left: 15px;
   }
 
