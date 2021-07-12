@@ -12,3 +12,4 @@ Some of the challenges that came up when building this were:
 - Sizing the UI per device with Media Queries
 
 This project taught me a lot about how Single Page Applications work and how to organize your application when building a backend API along with it.
+You can vist the production deployment on Roma Finishes here: http://roma-finishes.herokuapp.com/
